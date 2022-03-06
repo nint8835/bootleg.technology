@@ -1,0 +1,45 @@
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: deep purple
+    accent: teal
+  font:
+    text: IBM Plex Sans
+    code: IBM Plex Mono
+  icon:
+    logo: material/server
+    repo: material/github
+  features:
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+
+plugins:
+  - search
+  - privacy
+  - social
+markdown_extensions:
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+
+site_name: bootleg.technology
+site_url: https://bootleg.technology
+repo_url: https://github.com/nint8835/bootleg.technology
+repo_name: nint8835/bootleg.technology
+extra:
+  social:
+    - icon: material/twitter
+      link: https://twitter.com/bootlegjohn
+    - icon: material/github
+      link: https://github.com/nint8835
+copyright: Copyright &copy; 2022 Riley Flynn
