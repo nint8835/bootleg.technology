@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://bootleg.technology/</loc>
-         <lastmod>2022-03-07</lastmod>
+         <lastmod>2022-03-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://bootleg.technology/ops/guides/cluster-mainteinance/adding-a-node/</loc>
-         <lastmod>2022-03-07</lastmod>
+         <lastmod>2022-03-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://bootleg.technology/ops/guides/cluster-mainteinance/cluster-setup/</loc>
-         <lastmod>2022-03-07</lastmod>
+         <lastmod>2022-03-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
