@@ -8,10 +8,12 @@
 - Bootstrap the Flux install
   ```fish
   flux bootstrap github \
+      --components-extra=image-reflector-controller,image-automation-controller \
       --owner=nint8835 \
       --repository=ops \
       --branch=master \
       --path=./cluster \
+      --read-write-key \
       --personal
   ```
 - Following the [docs](https://fluxcd.io/docs/guides/mozilla-sops), add a GPG key for SOPS
