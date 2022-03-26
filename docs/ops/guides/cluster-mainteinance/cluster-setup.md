@@ -1,3 +1,9 @@
+---
+tags:
+  - kubernetes
+  - flux
+---
+
 # Cluster Setup
 
 - Create a server node, following the [Adding a Node](./adding-a-node.md) guide, with the following tweaks

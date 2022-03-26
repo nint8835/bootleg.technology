@@ -1,3 +1,8 @@
+---
+tags:
+  - kubernetes
+---
+
 # Adding a Node
 
 ## Create VM

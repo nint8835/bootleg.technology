@@ -1,3 +1,8 @@
+---
+tags:
+  - flux
+  - kubernetes
+---
 # Upgrading Flux
 
 To upgrade Flux, run the following command and commit the resulting changes:
