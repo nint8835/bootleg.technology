@@ -6,6 +6,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://bootleg.technology/tags/</loc>
+         <lastmod>2022-03-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://bootleg.technology/ops/guides/cluster-mainteinance/adding-a-node/</loc>
          <lastmod>2022-03-26</lastmod>
          <changefreq>daily</changefreq>
@@ -17,6 +22,11 @@
     </url>
     <url>
          <loc>https://bootleg.technology/ops/guides/cluster-mainteinance/upgrading-flux/</loc>
+         <lastmod>2022-03-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://bootleg.technology/tags/</loc>
          <lastmod>2022-03-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
