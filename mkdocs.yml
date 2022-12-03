@@ -17,18 +17,31 @@ theme:
     - navigation.instant
     - toc.integrate
     - content.tabs.link
+    - content.code.annotate
 
 plugins:
   - search
   - privacy
   - social
+  - blog:
+      post_url_date_format: yyyy/MM
   - tags:
       tags_file: tags.md
   - git-revision-date-localized:
       enable_creation_date: true
+      fallback_to_build_date: true
       type: timeago
+  - rss:
+      match_path: blog/posts/.* 
+      date_from_meta:
+        as_creation: date
+      categories:
+        - categories
+        - tags
+
 markdown_extensions:
   - attr_list
+  - md_in_html
   - admonition
   - pymdownx.details
   - pymdownx.highlight:
@@ -41,8 +54,19 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - footnotes
   - tables
   - meta
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 site_name: bootleg.technology
 site_url: https://bootleg.technology
@@ -56,3 +80,9 @@ extra:
     - icon: material/github
       link: https://github.com/nint8835
 copyright: Copyright &copy; 2022 Riley Flynn
+
+nav:
+  - Home:
+      - index.md
+  - Blog:
+      - blog/index.md
