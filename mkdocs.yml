@@ -18,11 +18,13 @@ theme:
     - toc.integrate
     - content.tabs.link
     - content.code.annotate
+    - search.suggest
 
 plugins:
   - search
   - privacy
   - social
+  - meta
   - blog:
       post_url_date_format: yyyy/MM
   - tags:
@@ -82,7 +84,6 @@ extra:
 copyright: Copyright &copy; 2022 Riley Flynn
 
 nav:
-  - Home:
-      - index.md
+  - Home: index.md
   - Blog:
       - blog/index.md
