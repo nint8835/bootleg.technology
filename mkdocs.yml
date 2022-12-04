@@ -21,14 +21,16 @@ theme:
     - search.suggest
 
 plugins:
+  - meta
   - search
   - privacy
   - social
-  - meta
-  - blog:
-      post_url_date_format: yyyy/MM
   - tags:
       tags_file: tags.md
+  - blog:
+      post_url_date_format: yyyy/MM
+      categories_allowed:
+        - Advent of Code
   - git-revision-date-localized:
       enable_creation_date: true
       fallback_to_build_date: true
