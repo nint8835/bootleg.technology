@@ -113,6 +113,7 @@ Now with the input split into groups, we can process each of the groups to split
 In part one of this day's problem, we need to find the total number of calories carried by the elf with the most calories.
 
 To do this, I:
+
 - Apply `Array.sum` to every item in the array, to calculate a total for every elf
 - Sort descending, to easily get the highest calorie count
 - Take the first item from the sorted array
