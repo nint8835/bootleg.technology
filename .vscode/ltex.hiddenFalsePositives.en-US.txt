@@ -1,0 +1,2 @@
+{"rule":"LC_AFTER_PERIOD","sentence":"^\\QWelcome to bootleg.technology!\\E$"}
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qbootleg.technology is my little corner on the internet for writing about projects, ideas, and just generally what I'm up to.\\E$"}

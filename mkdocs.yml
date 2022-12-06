@@ -15,8 +15,6 @@ theme:
     - navigation.tabs
     - navigation.sections
     - navigation.instant
-    - toc.integrate
-    - content.tabs.link
     - content.code.annotate
     - search.suggest
 
@@ -58,6 +56,9 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.emoji:
