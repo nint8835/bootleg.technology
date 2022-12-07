@@ -23,7 +23,7 @@ Another year nearly over, and another December is upon us. _You know what that m
 
 Inspired by [Jack's posts](https://www.cs.mun.ca/~jaharrhy/aoc/2022/) (and as a reason to finally get the motivation to do some writing on this site), I plan on writing about all the problems I manage to complete this year.
 
-My goal is primarily to document the (rough) process I took going from problem → initial solution → simplified solution, explaining any tricks I identified to solve the problems, all the while practicing my skills of doing this kind of writing.
+My goal is primarily to document the (rough) process I took going from problem → initial solution → simplified solution, explaining any tricks I identified to solve the problems, all the while practising my skills of doing this kind of writing.
 
 My primary priority is on completing AoC problems as quick as possible, and as a result writing a post for a solution will be the last (and least urgent) step of my process. This means in some occasions these posts will be written on a different day from the day they are for. In these cases, the date on the post will be set to the date of the problem it is meant for, regardless of what day it was written on, in order to have everything in the series line up neatly.
 
