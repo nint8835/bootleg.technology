@@ -16,3 +16,5 @@ categories:
 # Advent of Code 2022 - Day 4
 
 The elves are trying to coordinate the cleanup of the camp, and it's up to us to determine how much duplicate work is currently planned.
+
+<!-- more -->

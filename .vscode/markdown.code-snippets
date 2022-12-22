@@ -1,0 +1,20 @@
+{
+	"Tab Group (Code & Result)": {
+		"prefix": "code",
+		"description": "Tab group containing code and result tabs, both containing a code block of the same language.",
+		"body": [
+			"=== \"Code\"",
+			"    ",
+			"    ```${1:text}",
+			"    $2",
+			"    ```",
+			"",
+			"=== \"Result\"",
+			"    ",
+			"    ```${1:text}",
+			"    $3",
+			"    ```",
+			""
+		]
+	}
+}

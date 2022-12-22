@@ -14,3 +14,4 @@ categories:
 
 After completing 8 days worth of problems, I have been filtered, and therefore another year of Advent of Code comes to an end for me.
 
+<!-- more -->
