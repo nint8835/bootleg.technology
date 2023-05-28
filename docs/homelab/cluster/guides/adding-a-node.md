@@ -53,6 +53,5 @@ description: Guide on adding a new node to the Talos Kubernetes cluster.
     }
     ```
 16. Once the VM is started up and in "Maintenance" state again, run `terraform apply`. This will kick off OS installation and will take roughly 5 minutes to complete.
-17. Once the OS is installed, the stage will show as "Running", and all statuses will show as "Healthy" or "n/a", depending on the role. Navigate to the hardware page in Proxmox, select "CD/DVD Drive (ide2)" and click edit. Select "Do not use any media", and click OK.
 
 At this point, the node should now show up in `kubectl get nodes`, and be ready for use.
