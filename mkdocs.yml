@@ -89,3 +89,7 @@ nav:
   - Home: index.md
   - Blog:
       - blog/index.md
+  - Homelab:
+    - Cluster:
+      - Guides:
+        - Adding a Node: homelab/cluster/guides/adding-a-node.md
