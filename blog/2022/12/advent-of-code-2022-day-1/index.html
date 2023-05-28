@@ -13,6 +13,12 @@
         <link rel="canonical" href="https://bootleg.technology/blog/2022/12/advent-of-code-2022-day-1/">
       
       
+        <link rel="prev" href="../advent-of-code-2022-intro/">
+      
+      
+        <link rel="next" href="../advent-of-code-2022-day-2/">
+      
+      
         
       
       
@@ -20,7 +26,7 @@
         <link rel="alternate" type="application/rss+xml" title="RSS feed of updated content" href="../../../../feed_rss_updated.xml">
       
       <link rel="icon" href="../../../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.11+insiders-4.27.0">
+      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.14+insiders-4.35.1">
     
     
       
@@ -28,15 +34,10 @@
       
     
     
-      <link rel="stylesheet" href="../../../../assets/stylesheets/main.b2225816.min.css">
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.14411569.min.css">
       
         
-        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.2505c338.min.css">
-        
-          
-          
-          <meta name="theme-color" content="#7e56c2">
-        
+        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.df142b89.min.css">
       
       
 
@@ -47,7 +48,7 @@
         
         
         
-        <link rel="stylesheet" href="../../../../assets/external/fonts.googleapis.com/css.css">
+        <link rel="stylesheet" href="../../../../assets/external/fonts.googleapis.com/css.804a7bde.css">
         <style>:root{--md-text-font:"IBM Plex Sans";--md-code-font:"IBM Plex Mono"}</style>
       
     
@@ -60,34 +61,20 @@
 
     
     
-      
-        <meta  property="og:type"  content="website" >
-      
-        <meta  property="og:title"  content="Advent of Code 2022 - Day 1 - bootleg.technology" >
-      
-        <meta  property="og:description"  content="Walkthrough of my solution to Advent of Code 2022 - Day 1's problem" >
-      
-        <meta  property="og:image"  content="https://bootleg.technology/assets/images/social/blog/posts/aoc/2022/day-1.png" >
-      
-        <meta  property="og:image:type"  content="image/png" >
-      
-        <meta  property="og:image:width"  content="1200" >
-      
-        <meta  property="og:image:height"  content="630" >
-      
-        <meta  property="og:url"  content="https://bootleg.technology/blog/2022/12/advent-of-code-2022-day-1/" >
-      
-        <meta  name="twitter:card"  content="summary_large_image" >
-      
-        <meta  name="twitter:title"  content="Advent of Code 2022 - Day 1 - bootleg.technology" >
-      
-        <meta  name="twitter:description"  content="Walkthrough of my solution to Advent of Code 2022 - Day 1's problem" >
-      
-        <meta  name="twitter:image"  content="https://bootleg.technology/assets/images/social/blog/posts/aoc/2022/day-1.png" >
-      
-    
-    
-  </head>
+  
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Advent of Code 2022 - Day 1 - bootleg.technology" />
+<meta property="og:description" content="Walkthrough of my solution to Advent of Code 2022 - Day 1's problem" />
+<meta property="og:image" content="https://bootleg.technology/assets/images/social/blog/2022/12/advent-of-code-2022-day-1.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:url" content="https://bootleg.technology/blog/2022/12/advent-of-code-2022-day-1/" />
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter.title" content="Advent of Code 2022 - Day 1 - bootleg.technology" />
+<meta property="twitter:description" content="Walkthrough of my solution to Advent of Code 2022 - Day 1's problem" />
+<meta property="twitter:image" content="https://bootleg.technology/assets/images/social/blog/2022/12/advent-of-code-2022-day-1.png" />
+</head>
   
   
     
@@ -144,6 +131,8 @@
       </div>
     </div>
     
+      
+    
     
     
     
@@ -175,7 +164,7 @@
           <div class="md-search-result__meta">
             Initializing search
           </div>
-          <ol class="md-search-result__list"></ol>
+          <ol class="md-search-result__list" role="presentation"></ol>
         </div>
       </div>
     </div>
@@ -204,15 +193,14 @@
       
         
           
-            <nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
-  <div class="md-tabs__inner md-grid">
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
     <ul class="md-tabs__list">
       
         
-
-
-
-
+  
+  
   
     <li class="md-tabs__item">
       <a href="../../../.." class="md-tabs__link">
@@ -228,12 +216,10 @@
 
       
         
-
   
-
-
-
-
+  
+    
+  
   
     
     
@@ -241,12 +227,46 @@
         <a href="../../../" class="md-tabs__link md-tabs__link--active">
           
   
-    
-  
   Blog
 
         </a>
       </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      
+  
+  
+  
+    
+    
+      
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../homelab/cluster/guides/adding-a-node/" class="md-tabs__link">
+          
+  
+  Homelab
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
     
   
 
@@ -337,10 +357,11 @@
       
         
         
-          <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
         
         
-          <label class="md-nav__link" for="__nav_2">
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -357,7 +378,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" aria-label="Blog" data-md-level="1">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -410,10 +431,11 @@
       
         
         
-          <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" type="checkbox" id="__nav_2_2" >
         
         
-          <label class="md-nav__link" for="__nav_2_2">
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -430,7 +452,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" aria-label="Archive" data-md-level="2">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -489,10 +511,11 @@
       
         
         
-          <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3" type="checkbox" id="__nav_2_3" >
         
         
-          <label class="md-nav__link" for="__nav_2_3">
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+        
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -509,7 +532,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" aria-label="Categories" data-md-level="2">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -541,6 +564,189 @@
   
 
       </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    
+  
+    Homelab
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Homelab
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" >
+        
+          <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    
+  
+    Cluster
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Cluster
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1_1" >
+        
+          <label class="md-nav__link" for="__nav_3_1_1" id="__nav_3_1_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    
+  
+    Guides
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_1_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Guides
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../homelab/cluster/guides/adding-a-node/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Adding a Node
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -704,7 +910,7 @@
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 0 8-8 8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8m0-18a10 10 0 0 1 10 10 10 10 0 0 1-10 10C6.47 22 2 17.5 2 12A10 10 0 0 1 12 2m.5 5v5.25l4.5 2.67-.75 1.23L11 13V7h1.5Z"/></svg>
                     <span class="md-ellipsis">
                       
-                        4 min read
+                        5 min read
                       
                     </span>
                   </div>
@@ -749,6 +955,7 @@
               </ul>
             
           </nav>
+          
         </div>
       </div>
     </div>
@@ -761,10 +968,8 @@
 
 
 
-  <a href="https://github.com/nint8835/bootleg.technology/edit/main/docs/blog/posts/aoc/2022/day-1.md" title="Edit this page" class="md-content__button md-icon">
-    
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
-  </a>
+  
+  
 
 
 <p><img alt="" src="../../../assets/aoc/2022/assets/day-1.png" /></p>
@@ -793,11 +998,11 @@
 <div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="code" name="__tabbed_1" type="radio" /><input id="result" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="code">Code</label><label for="result">Result</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="k">let</span><span class="w"> </span><span class="nv">inputData</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nn">System</span><span class="p">.</span><span class="nn">IO</span><span class="p">.</span><span class="nn">File</span><span class="p">.</span><span class="n">ReadAllText</span><span class="w"> </span><span class="s">&quot;Day1/input.txt&quot;</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="k">let</span><span class="w"> </span><span class="nv">inputData</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nn">System</span><span class="p">.</span><span class="nn">IO</span><span class="p">.</span><span class="nn">File</span><span class="p">.</span><span class="n">ReadAllText</span><span class="w"> </span><span class="s">&quot;Day1/input.txt&quot;</span>
 </code></pre></div>
 </div>
 <div class="tabbed-block">
-<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="k">val</span><span class="w"> </span><span class="n">inputData</span><span class="o">:</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="o">=</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="k">val</span><span class="w"> </span><span class="n">inputData</span><span class="o">:</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="o">=</span>
 <a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="w">  </span><span class="s">&quot;1000</span>
 <a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="s">2000</span>
 <a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="s">3000</span>
@@ -811,7 +1016,7 @@
 <a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a><span class="s">8000</span>
 <a id="__codelineno-2-13" name="__codelineno-2-13" href="#__codelineno-2-13"></a><span class="s">9000</span>
 <a id="__codelineno-2-14" name="__codelineno-2-14" href="#__codelineno-2-14"></a>
-<a id="__codelineno-2-15" name="__codelineno-2-15" href="#__codelineno-2-15"></a><span class="s">10000&quot;</span><span class="w"></span>
+<a id="__codelineno-2-15" name="__codelineno-2-15" href="#__codelineno-2-15"></a><span class="s">10000&quot;</span>
 </code></pre></div>
 </div>
 </div>
@@ -820,19 +1025,19 @@
 <div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="code_1" name="__tabbed_2" type="radio" /><input id="result_1" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="code_1">Code</label><label for="result_1">Result</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
-<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="k">let</span><span class="w"> </span><span class="nv">inputData</span><span class="w"> </span><span class="o">=</span><span class="w"></span>
-<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="w">    </span><span class="o">(</span><span class="nn">System</span><span class="p">.</span><span class="nn">IO</span><span class="p">.</span><span class="nn">File</span><span class="p">.</span><span class="n">ReadAllText</span><span class="w"> </span><span class="s">&quot;Day1/input.txt&quot;</span><span class="o">)</span><span class="w"></span>
-<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="w">        </span><span class="o">.</span><span class="n">Split</span><span class="w"> </span><span class="s">&quot;</span><span class="se">\n\n</span><span class="s">&quot;</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="k">let</span><span class="w"> </span><span class="nv">inputData</span><span class="w"> </span><span class="o">=</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="w">    </span><span class="o">(</span><span class="nn">System</span><span class="p">.</span><span class="nn">IO</span><span class="p">.</span><span class="nn">File</span><span class="p">.</span><span class="n">ReadAllText</span><span class="w"> </span><span class="s">&quot;Day1/input.txt&quot;</span><span class="o">)</span>
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="w">        </span><span class="o">.</span><span class="n">Split</span><span class="w"> </span><span class="s">&quot;</span><span class="se">\n\n</span><span class="s">&quot;</span>
 </code></pre></div>
 </div>
 <div class="tabbed-block">
-<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="k">val</span><span class="w"> </span><span class="n">inputData</span><span class="o">:</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="n">array</span><span class="w"> </span><span class="o">=</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="k">val</span><span class="w"> </span><span class="n">inputData</span><span class="o">:</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="n">array</span><span class="w"> </span><span class="o">=</span>
 <a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="w">  </span><span class="o">[|</span><span class="s">&quot;1000</span>
 <a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="s">2000</span>
 <a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="s">3000&quot;</span><span class="o">;</span><span class="w"> </span><span class="s">&quot;4000&quot;</span><span class="o">;</span><span class="w"> </span><span class="s">&quot;5000</span>
 <a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="s">6000&quot;</span><span class="o">;</span><span class="w"> </span><span class="s">&quot;7000</span>
 <a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a><span class="s">8000</span>
-<a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a><span class="s">9000&quot;</span><span class="o">;</span><span class="w"> </span><span class="s">&quot;10000&quot;</span><span class="o">|]</span><span class="w"></span>
+<a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a><span class="s">9000&quot;</span><span class="o">;</span><span class="w"> </span><span class="s">&quot;10000&quot;</span><span class="o">|]</span>
 </code></pre></div>
 </div>
 </div>
@@ -841,16 +1046,16 @@
 <div class="tabbed-set tabbed-alternate" data-tabs="3:2"><input checked="checked" id="code_2" name="__tabbed_3" type="radio" /><input id="result_2" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="code_2">Code</label><label for="result_2">Result</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
-<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="k">let</span><span class="w"> </span><span class="nv">inputData</span><span class="w"> </span><span class="o">=</span><span class="w"></span>
-<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="w">    </span><span class="o">(</span><span class="nn">System</span><span class="p">.</span><span class="nn">IO</span><span class="p">.</span><span class="nn">File</span><span class="p">.</span><span class="n">ReadAllText</span><span class="w"> </span><span class="s">&quot;Day1/input.txt&quot;</span><span class="o">)</span><span class="w"></span>
-<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="w">        </span><span class="o">.</span><span class="n">Split</span><span class="w"> </span><span class="s">&quot;</span><span class="se">\n\n</span><span class="s">&quot;</span><span class="w"></span>
-<a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a><span class="w">    </span><span class="o">|&gt;</span><span class="w"> </span><span class="nn">Array</span><span class="p">.</span><span class="n">map</span><span class="w"> </span><span class="o">(</span><span class="k">fun</span><span class="w"> </span><span class="n">elf</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">elf</span><span class="o">.</span><span class="n">Split</span><span class="w"> </span><span class="s">&quot;</span><span class="se">\n</span><span class="s">&quot;</span><span class="w"> </span><span class="o">|&gt;</span><span class="w"> </span><span class="nn">Array</span><span class="p">.</span><span class="n">map</span><span class="w"> </span><span class="n">int</span><span class="o">)</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="k">let</span><span class="w"> </span><span class="nv">inputData</span><span class="w"> </span><span class="o">=</span>
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="w">    </span><span class="o">(</span><span class="nn">System</span><span class="p">.</span><span class="nn">IO</span><span class="p">.</span><span class="nn">File</span><span class="p">.</span><span class="n">ReadAllText</span><span class="w"> </span><span class="s">&quot;Day1/input.txt&quot;</span><span class="o">)</span>
+<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="w">        </span><span class="o">.</span><span class="n">Split</span><span class="w"> </span><span class="s">&quot;</span><span class="se">\n\n</span><span class="s">&quot;</span>
+<a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a><span class="w">    </span><span class="o">|&gt;</span><span class="w"> </span><span class="nn">Array</span><span class="p">.</span><span class="n">map</span><span class="w"> </span><span class="o">(</span><span class="k">fun</span><span class="w"> </span><span class="n">elf</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">elf</span><span class="o">.</span><span class="n">Split</span><span class="w"> </span><span class="s">&quot;</span><span class="se">\n</span><span class="s">&quot;</span><span class="w"> </span><span class="o">|&gt;</span><span class="w"> </span><span class="nn">Array</span><span class="p">.</span><span class="n">map</span><span class="w"> </span><span class="n">int</span><span class="o">)</span>
 </code></pre></div>
 </div>
 <div class="tabbed-block">
-<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="k">val</span><span class="w"> </span><span class="n">inputData</span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="w"> </span><span class="n">array</span><span class="w"> </span><span class="n">array</span><span class="w"> </span><span class="o">=</span><span class="w"></span>
-<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="w">  </span><span class="o">[|[|</span><span class="mi">1000</span><span class="o">;</span><span class="w"> </span><span class="mi">2000</span><span class="o">;</span><span class="w"> </span><span class="mi">3000</span><span class="o">|];</span><span class="w"> </span><span class="o">[|</span><span class="mi">4000</span><span class="o">|];</span><span class="w"> </span><span class="o">[|</span><span class="mi">5000</span><span class="o">;</span><span class="w"> </span><span class="mi">6000</span><span class="o">|];</span><span class="w"> </span><span class="o">[|</span><span class="mi">7000</span><span class="o">;</span><span class="w"> </span><span class="mi">8000</span><span class="o">;</span><span class="w"> </span><span class="mi">9000</span><span class="o">|];</span><span class="w"></span>
-<a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a><span class="w">    </span><span class="o">[|</span><span class="mi">10000</span><span class="o">|]|]</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="k">val</span><span class="w"> </span><span class="n">inputData</span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="w"> </span><span class="n">array</span><span class="w"> </span><span class="n">array</span><span class="w"> </span><span class="o">=</span>
+<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="w">  </span><span class="o">[|[|</span><span class="mi">1000</span><span class="o">;</span><span class="w"> </span><span class="mi">2000</span><span class="o">;</span><span class="w"> </span><span class="mi">3000</span><span class="o">|];</span><span class="w"> </span><span class="o">[|</span><span class="mi">4000</span><span class="o">|];</span><span class="w"> </span><span class="o">[|</span><span class="mi">5000</span><span class="o">;</span><span class="w"> </span><span class="mi">6000</span><span class="o">|];</span><span class="w"> </span><span class="o">[|</span><span class="mi">7000</span><span class="o">;</span><span class="w"> </span><span class="mi">8000</span><span class="o">;</span><span class="w"> </span><span class="mi">9000</span><span class="o">|];</span>
+<a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a><span class="w">    </span><span class="o">[|</span><span class="mi">10000</span><span class="o">|]|]</span>
 </code></pre></div>
 </div>
 </div>
@@ -867,18 +1072,18 @@
 <div class="tabbed-set tabbed-alternate" data-tabs="4:2"><input checked="checked" id="code_3" name="__tabbed_4" type="radio" /><input id="result_3" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="code_3">Code</label><label for="result_3">Result</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
-<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="k">let</span><span class="w"> </span><span class="nv">partA</span><span class="w"> </span><span class="o">(</span><span class="n">elves</span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="w"> </span><span class="bp">[]</span><span class="w"> </span><span class="bp">[]</span><span class="o">)</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="w"> </span><span class="o">=</span><span class="w"></span>
-<a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="w">    </span><span class="n">elves</span><span class="w"></span>
-<a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a><span class="w">    </span><span class="o">|&gt;</span><span class="w"> </span><span class="nn">Array</span><span class="p">.</span><span class="n">map</span><span class="w"> </span><span class="nn">Array</span><span class="p">.</span><span class="n">sum</span><span class="w"></span>
-<a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a><span class="w">    </span><span class="o">|&gt;</span><span class="w"> </span><span class="nn">Array</span><span class="p">.</span><span class="n">sortDescending</span><span class="w"></span>
-<a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a><span class="w">    </span><span class="o">|&gt;</span><span class="w"> </span><span class="o">(</span><span class="k">fun</span><span class="w"> </span><span class="o">(</span><span class="n">array</span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="w"> </span><span class="bp">[]</span><span class="o">)</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">array</span><span class="o">[</span><span class="mi">0</span><span class="o">])</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="k">let</span><span class="w"> </span><span class="nv">partA</span><span class="w"> </span><span class="o">(</span><span class="n">elves</span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="w"> </span><span class="bp">[]</span><span class="w"> </span><span class="bp">[]</span><span class="o">)</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="w"> </span><span class="o">=</span>
+<a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="w">    </span><span class="n">elves</span>
+<a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a><span class="w">    </span><span class="o">|&gt;</span><span class="w"> </span><span class="nn">Array</span><span class="p">.</span><span class="n">map</span><span class="w"> </span><span class="nn">Array</span><span class="p">.</span><span class="n">sum</span>
+<a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a><span class="w">    </span><span class="o">|&gt;</span><span class="w"> </span><span class="nn">Array</span><span class="p">.</span><span class="n">sortDescending</span>
+<a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a><span class="w">    </span><span class="o">|&gt;</span><span class="w"> </span><span class="o">(</span><span class="k">fun</span><span class="w"> </span><span class="o">(</span><span class="n">array</span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="w"> </span><span class="bp">[]</span><span class="o">)</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">array</span><span class="o">[</span><span class="mi">0</span><span class="o">])</span>
 <a id="__codelineno-7-6" name="__codelineno-7-6" href="#__codelineno-7-6"></a>
-<a id="__codelineno-7-7" name="__codelineno-7-7" href="#__codelineno-7-7"></a><span class="k">let</span><span class="w"> </span><span class="nv">partAAnswer</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">partA</span><span class="w"> </span><span class="n">inputData</span><span class="w"></span>
+<a id="__codelineno-7-7" name="__codelineno-7-7" href="#__codelineno-7-7"></a><span class="k">let</span><span class="w"> </span><span class="nv">partAAnswer</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">partA</span><span class="w"> </span><span class="n">inputData</span>
 </code></pre></div>
 </div>
 <div class="tabbed-block">
-<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="k">val</span><span class="w"> </span><span class="n">partA</span><span class="o">:</span><span class="w"> </span><span class="n">elves</span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="w"> </span><span class="n">array</span><span class="w"> </span><span class="n">array</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">int</span><span class="w"></span>
-<a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a><span class="k">val</span><span class="w"> </span><span class="n">partAAnswer</span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">24000</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="k">val</span><span class="w"> </span><span class="n">partA</span><span class="o">:</span><span class="w"> </span><span class="n">elves</span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="w"> </span><span class="n">array</span><span class="w"> </span><span class="n">array</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">int</span>
+<a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a><span class="k">val</span><span class="w"> </span><span class="n">partAAnswer</span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">24000</span>
 </code></pre></div>
 </div>
 </div>
@@ -894,19 +1099,19 @@
 <div class="tabbed-set tabbed-alternate" data-tabs="5:2"><input checked="checked" id="code_4" name="__tabbed_5" type="radio" /><input id="result_4" name="__tabbed_5" type="radio" /><div class="tabbed-labels"><label for="code_4">Code</label><label for="result_4">Result</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
-<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="k">let</span><span class="w"> </span><span class="nv">partB</span><span class="w"> </span><span class="o">(</span><span class="n">elves</span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="w"> </span><span class="bp">[]</span><span class="w"> </span><span class="bp">[]</span><span class="o">)</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="w"> </span><span class="o">=</span><span class="w"></span>
-<a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a><span class="w">    </span><span class="n">elves</span><span class="w"></span>
-<a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a><span class="w">    </span><span class="o">|&gt;</span><span class="w"> </span><span class="nn">Array</span><span class="p">.</span><span class="n">map</span><span class="w"> </span><span class="nn">Array</span><span class="p">.</span><span class="n">sum</span><span class="w"></span>
-<a id="__codelineno-9-4" name="__codelineno-9-4" href="#__codelineno-9-4"></a><span class="w">    </span><span class="o">|&gt;</span><span class="w"> </span><span class="nn">Array</span><span class="p">.</span><span class="n">sortDescending</span><span class="w"></span>
-<a id="__codelineno-9-5" name="__codelineno-9-5" href="#__codelineno-9-5"></a><span class="w">    </span><span class="o">|&gt;</span><span class="w"> </span><span class="o">(</span><span class="k">fun</span><span class="w"> </span><span class="o">(</span><span class="n">array</span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="w"> </span><span class="bp">[]</span><span class="o">)</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">array</span><span class="o">[</span><span class="mi">0</span><span class="o">..</span><span class="mi">2</span><span class="o">])</span><span class="w"></span>
-<a id="__codelineno-9-6" name="__codelineno-9-6" href="#__codelineno-9-6"></a><span class="w">    </span><span class="o">|&gt;</span><span class="w"> </span><span class="nn">Array</span><span class="p">.</span><span class="n">sum</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="k">let</span><span class="w"> </span><span class="nv">partB</span><span class="w"> </span><span class="o">(</span><span class="n">elves</span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="w"> </span><span class="bp">[]</span><span class="w"> </span><span class="bp">[]</span><span class="o">)</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="w"> </span><span class="o">=</span>
+<a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a><span class="w">    </span><span class="n">elves</span>
+<a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a><span class="w">    </span><span class="o">|&gt;</span><span class="w"> </span><span class="nn">Array</span><span class="p">.</span><span class="n">map</span><span class="w"> </span><span class="nn">Array</span><span class="p">.</span><span class="n">sum</span>
+<a id="__codelineno-9-4" name="__codelineno-9-4" href="#__codelineno-9-4"></a><span class="w">    </span><span class="o">|&gt;</span><span class="w"> </span><span class="nn">Array</span><span class="p">.</span><span class="n">sortDescending</span>
+<a id="__codelineno-9-5" name="__codelineno-9-5" href="#__codelineno-9-5"></a><span class="w">    </span><span class="o">|&gt;</span><span class="w"> </span><span class="o">(</span><span class="k">fun</span><span class="w"> </span><span class="o">(</span><span class="n">array</span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="w"> </span><span class="bp">[]</span><span class="o">)</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">array</span><span class="o">[</span><span class="mi">0</span><span class="o">..</span><span class="mi">2</span><span class="o">])</span>
+<a id="__codelineno-9-6" name="__codelineno-9-6" href="#__codelineno-9-6"></a><span class="w">    </span><span class="o">|&gt;</span><span class="w"> </span><span class="nn">Array</span><span class="p">.</span><span class="n">sum</span>
 <a id="__codelineno-9-7" name="__codelineno-9-7" href="#__codelineno-9-7"></a>
-<a id="__codelineno-9-8" name="__codelineno-9-8" href="#__codelineno-9-8"></a><span class="k">let</span><span class="w"> </span><span class="nv">partBAnswer</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">partB</span><span class="w"> </span><span class="n">inputData</span><span class="w"></span>
+<a id="__codelineno-9-8" name="__codelineno-9-8" href="#__codelineno-9-8"></a><span class="k">let</span><span class="w"> </span><span class="nv">partBAnswer</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">partB</span><span class="w"> </span><span class="n">inputData</span>
 </code></pre></div>
 </div>
 <div class="tabbed-block">
-<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="k">val</span><span class="w"> </span><span class="n">partB</span><span class="o">:</span><span class="w"> </span><span class="n">elves</span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="w"> </span><span class="n">array</span><span class="w"> </span><span class="n">array</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">int</span><span class="w"></span>
-<a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a><span class="k">val</span><span class="w"> </span><span class="n">partBAnswer</span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">45000</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="k">val</span><span class="w"> </span><span class="n">partB</span><span class="o">:</span><span class="w"> </span><span class="n">elves</span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="w"> </span><span class="n">array</span><span class="w"> </span><span class="n">array</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">int</span>
+<a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a><span class="k">val</span><span class="w"> </span><span class="n">partBAnswer</span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">45000</span>
 </code></pre></div>
 </div>
 </div>
@@ -917,21 +1122,21 @@
 <div class="tabbed-set tabbed-alternate" data-tabs="6:2"><input checked="checked" id="code_5" name="__tabbed_6" type="radio" /><input id="result_5" name="__tabbed_6" type="radio" /><div class="tabbed-labels"><label for="code_5">Code</label><label for="result_5">Result</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
-<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a><span class="k">let</span><span class="w"> </span><span class="nv">maxNElves</span><span class="w"> </span><span class="o">(</span><span class="n">elves</span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="w"> </span><span class="bp">[]</span><span class="w"> </span><span class="bp">[]</span><span class="o">)</span><span class="w"> </span><span class="o">(</span><span class="n">n</span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="o">)</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="w"> </span><span class="o">=</span><span class="w"></span>
-<a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a><span class="w">    </span><span class="n">elves</span><span class="w"></span>
-<a id="__codelineno-11-3" name="__codelineno-11-3" href="#__codelineno-11-3"></a><span class="w">    </span><span class="o">|&gt;</span><span class="w"> </span><span class="nn">Array</span><span class="p">.</span><span class="n">map</span><span class="w"> </span><span class="nn">Array</span><span class="p">.</span><span class="n">sum</span><span class="w"></span>
-<a id="__codelineno-11-4" name="__codelineno-11-4" href="#__codelineno-11-4"></a><span class="w">    </span><span class="o">|&gt;</span><span class="w"> </span><span class="nn">Array</span><span class="p">.</span><span class="n">sortDescending</span><span class="w"></span>
-<a id="__codelineno-11-5" name="__codelineno-11-5" href="#__codelineno-11-5"></a><span class="w">    </span><span class="o">|&gt;</span><span class="w"> </span><span class="o">(</span><span class="k">fun</span><span class="w"> </span><span class="o">(</span><span class="n">array</span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="w"> </span><span class="bp">[]</span><span class="o">)</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">array</span><span class="o">[..</span><span class="w"> </span><span class="n">n</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mi">1</span><span class="o">])</span><span class="w"></span>
-<a id="__codelineno-11-6" name="__codelineno-11-6" href="#__codelineno-11-6"></a><span class="w">    </span><span class="o">|&gt;</span><span class="w"> </span><span class="nn">Array</span><span class="p">.</span><span class="n">sum</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a><span class="k">let</span><span class="w"> </span><span class="nv">maxNElves</span><span class="w"> </span><span class="o">(</span><span class="n">elves</span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="w"> </span><span class="bp">[]</span><span class="w"> </span><span class="bp">[]</span><span class="o">)</span><span class="w"> </span><span class="o">(</span><span class="n">n</span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="o">)</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="w"> </span><span class="o">=</span>
+<a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a><span class="w">    </span><span class="n">elves</span>
+<a id="__codelineno-11-3" name="__codelineno-11-3" href="#__codelineno-11-3"></a><span class="w">    </span><span class="o">|&gt;</span><span class="w"> </span><span class="nn">Array</span><span class="p">.</span><span class="n">map</span><span class="w"> </span><span class="nn">Array</span><span class="p">.</span><span class="n">sum</span>
+<a id="__codelineno-11-4" name="__codelineno-11-4" href="#__codelineno-11-4"></a><span class="w">    </span><span class="o">|&gt;</span><span class="w"> </span><span class="nn">Array</span><span class="p">.</span><span class="n">sortDescending</span>
+<a id="__codelineno-11-5" name="__codelineno-11-5" href="#__codelineno-11-5"></a><span class="w">    </span><span class="o">|&gt;</span><span class="w"> </span><span class="o">(</span><span class="k">fun</span><span class="w"> </span><span class="o">(</span><span class="n">array</span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="w"> </span><span class="bp">[]</span><span class="o">)</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">array</span><span class="o">[..</span><span class="w"> </span><span class="n">n</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mi">1</span><span class="o">])</span>
+<a id="__codelineno-11-6" name="__codelineno-11-6" href="#__codelineno-11-6"></a><span class="w">    </span><span class="o">|&gt;</span><span class="w"> </span><span class="nn">Array</span><span class="p">.</span><span class="n">sum</span>
 <a id="__codelineno-11-7" name="__codelineno-11-7" href="#__codelineno-11-7"></a>
-<a id="__codelineno-11-8" name="__codelineno-11-8" href="#__codelineno-11-8"></a><span class="k">let</span><span class="w"> </span><span class="nv">partA</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">maxNElves</span><span class="w"> </span><span class="n">inputData</span><span class="w"> </span><span class="mi">1</span><span class="w"></span>
-<a id="__codelineno-11-9" name="__codelineno-11-9" href="#__codelineno-11-9"></a><span class="k">let</span><span class="w"> </span><span class="nv">partB</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">maxNElves</span><span class="w"> </span><span class="n">inputData</span><span class="w"> </span><span class="mi">3</span><span class="w"></span>
+<a id="__codelineno-11-8" name="__codelineno-11-8" href="#__codelineno-11-8"></a><span class="k">let</span><span class="w"> </span><span class="nv">partA</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">maxNElves</span><span class="w"> </span><span class="n">inputData</span><span class="w"> </span><span class="mi">1</span>
+<a id="__codelineno-11-9" name="__codelineno-11-9" href="#__codelineno-11-9"></a><span class="k">let</span><span class="w"> </span><span class="nv">partB</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">maxNElves</span><span class="w"> </span><span class="n">inputData</span><span class="w"> </span><span class="mi">3</span>
 </code></pre></div>
 </div>
 <div class="tabbed-block">
-<div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a><span class="k">val</span><span class="w"> </span><span class="n">maxNElves</span><span class="o">:</span><span class="w"> </span><span class="n">elves</span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="w"> </span><span class="n">array</span><span class="w"> </span><span class="n">array</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">n</span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">int</span><span class="w"></span>
-<a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a><span class="k">val</span><span class="w"> </span><span class="n">partA</span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">24000</span><span class="w"></span>
-<a id="__codelineno-12-3" name="__codelineno-12-3" href="#__codelineno-12-3"></a><span class="k">val</span><span class="w"> </span><span class="n">partB</span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">45000</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a><span class="k">val</span><span class="w"> </span><span class="n">maxNElves</span><span class="o">:</span><span class="w"> </span><span class="n">elves</span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="w"> </span><span class="n">array</span><span class="w"> </span><span class="n">array</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">n</span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">int</span>
+<a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a><span class="k">val</span><span class="w"> </span><span class="n">partA</span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">24000</span>
+<a id="__codelineno-12-3" name="__codelineno-12-3" href="#__codelineno-12-3"></a><span class="k">val</span><span class="w"> </span><span class="n">partB</span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">45000</span>
 </code></pre></div>
 </div>
 </div>
@@ -941,21 +1146,21 @@
 <div class="tabbed-set tabbed-alternate" data-tabs="7:2"><input checked="checked" id="code_6" name="__tabbed_7" type="radio" /><input id="result_6" name="__tabbed_7" type="radio" /><div class="tabbed-labels"><label for="code_6">Code</label><label for="result_6">Result</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
-<div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a><span class="k">let</span><span class="w"> </span><span class="nv">maxNElves</span><span class="w"> </span><span class="o">(</span><span class="n">elves</span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="w"> </span><span class="bp">[]</span><span class="w"> </span><span class="bp">[]</span><span class="o">)</span><span class="w"> </span><span class="o">(</span><span class="n">n</span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="o">)</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="w"> </span><span class="o">=</span><span class="w"></span>
-<a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a><span class="w">    </span><span class="n">elves</span><span class="w"></span>
-<a id="__codelineno-13-3" name="__codelineno-13-3" href="#__codelineno-13-3"></a><span class="w">    </span><span class="o">|&gt;</span><span class="w"> </span><span class="nn">Array</span><span class="p">.</span><span class="n">map</span><span class="w"> </span><span class="nn">Array</span><span class="p">.</span><span class="n">sum</span><span class="w"></span>
-<a id="__codelineno-13-4" name="__codelineno-13-4" href="#__codelineno-13-4"></a><span class="w">    </span><span class="o">|&gt;</span><span class="w"> </span><span class="nn">Array</span><span class="p">.</span><span class="n">sortDescending</span><span class="w"></span>
-<a id="__codelineno-13-5" name="__codelineno-13-5" href="#__codelineno-13-5"></a><span class="w">    </span><span class="o">|&gt;</span><span class="w"> </span><span class="nn">Array</span><span class="p">.</span><span class="n">take</span><span class="w"> </span><span class="n">n</span><span class="w"></span>
-<a id="__codelineno-13-6" name="__codelineno-13-6" href="#__codelineno-13-6"></a><span class="w">    </span><span class="o">|&gt;</span><span class="w"> </span><span class="nn">Array</span><span class="p">.</span><span class="n">sum</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a><span class="k">let</span><span class="w"> </span><span class="nv">maxNElves</span><span class="w"> </span><span class="o">(</span><span class="n">elves</span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="w"> </span><span class="bp">[]</span><span class="w"> </span><span class="bp">[]</span><span class="o">)</span><span class="w"> </span><span class="o">(</span><span class="n">n</span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="o">)</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="w"> </span><span class="o">=</span>
+<a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a><span class="w">    </span><span class="n">elves</span>
+<a id="__codelineno-13-3" name="__codelineno-13-3" href="#__codelineno-13-3"></a><span class="w">    </span><span class="o">|&gt;</span><span class="w"> </span><span class="nn">Array</span><span class="p">.</span><span class="n">map</span><span class="w"> </span><span class="nn">Array</span><span class="p">.</span><span class="n">sum</span>
+<a id="__codelineno-13-4" name="__codelineno-13-4" href="#__codelineno-13-4"></a><span class="w">    </span><span class="o">|&gt;</span><span class="w"> </span><span class="nn">Array</span><span class="p">.</span><span class="n">sortDescending</span>
+<a id="__codelineno-13-5" name="__codelineno-13-5" href="#__codelineno-13-5"></a><span class="w">    </span><span class="o">|&gt;</span><span class="w"> </span><span class="nn">Array</span><span class="p">.</span><span class="n">take</span><span class="w"> </span><span class="n">n</span>
+<a id="__codelineno-13-6" name="__codelineno-13-6" href="#__codelineno-13-6"></a><span class="w">    </span><span class="o">|&gt;</span><span class="w"> </span><span class="nn">Array</span><span class="p">.</span><span class="n">sum</span>
 <a id="__codelineno-13-7" name="__codelineno-13-7" href="#__codelineno-13-7"></a>
-<a id="__codelineno-13-8" name="__codelineno-13-8" href="#__codelineno-13-8"></a><span class="k">let</span><span class="w"> </span><span class="nv">partA</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">maxNElves</span><span class="w"> </span><span class="n">inputData</span><span class="w"> </span><span class="mi">1</span><span class="w"></span>
-<a id="__codelineno-13-9" name="__codelineno-13-9" href="#__codelineno-13-9"></a><span class="k">let</span><span class="w"> </span><span class="nv">partB</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">maxNElves</span><span class="w"> </span><span class="n">inputData</span><span class="w"> </span><span class="mi">3</span><span class="w"></span>
+<a id="__codelineno-13-8" name="__codelineno-13-8" href="#__codelineno-13-8"></a><span class="k">let</span><span class="w"> </span><span class="nv">partA</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">maxNElves</span><span class="w"> </span><span class="n">inputData</span><span class="w"> </span><span class="mi">1</span>
+<a id="__codelineno-13-9" name="__codelineno-13-9" href="#__codelineno-13-9"></a><span class="k">let</span><span class="w"> </span><span class="nv">partB</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">maxNElves</span><span class="w"> </span><span class="n">inputData</span><span class="w"> </span><span class="mi">3</span>
 </code></pre></div>
 </div>
 <div class="tabbed-block">
-<div class="highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a><span class="k">val</span><span class="w"> </span><span class="n">maxNElves</span><span class="o">:</span><span class="w"> </span><span class="n">elves</span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="w"> </span><span class="n">array</span><span class="w"> </span><span class="n">array</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">n</span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">int</span><span class="w"></span>
-<a id="__codelineno-14-2" name="__codelineno-14-2" href="#__codelineno-14-2"></a><span class="k">val</span><span class="w"> </span><span class="n">partA</span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">24000</span><span class="w"></span>
-<a id="__codelineno-14-3" name="__codelineno-14-3" href="#__codelineno-14-3"></a><span class="k">val</span><span class="w"> </span><span class="n">partB</span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">45000</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a><span class="k">val</span><span class="w"> </span><span class="n">maxNElves</span><span class="o">:</span><span class="w"> </span><span class="n">elves</span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="w"> </span><span class="n">array</span><span class="w"> </span><span class="n">array</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">n</span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">int</span>
+<a id="__codelineno-14-2" name="__codelineno-14-2" href="#__codelineno-14-2"></a><span class="k">val</span><span class="w"> </span><span class="n">partA</span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">24000</span>
+<a id="__codelineno-14-3" name="__codelineno-14-3" href="#__codelineno-14-3"></a><span class="k">val</span><span class="w"> </span><span class="n">partB</span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">45000</span>
 </code></pre></div>
 </div>
 </div>
@@ -973,7 +1178,7 @@
   <aside class="md-source-file">
     
       <span class="md-source-file__fact">
-        <span class="md-icon" title="Date of last update">
+        <span class="md-icon" title="Last update">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
         </span>
         <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2022-12-06T00:33:26+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2022-12-06</span>
@@ -981,7 +1186,7 @@
     
     
       <span class="md-source-file__fact">
-        <span class="md-icon" title="Date of creation">
+        <span class="md-icon" title="Created">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3h-2Z"/></svg>
         </span>
         <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2022-12-06T00:22:41+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2022-12-06</span>
@@ -1009,44 +1214,6 @@
       
         <footer class="md-footer">
   
-    
-      
-    
-    <nav class="md-footer__inner md-grid" aria-label="Footer" >
-      
-        
-        <a href="../advent-of-code-2022-intro/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Advent of Code 2022 - Intro" rel="prev">
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
-          </div>
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Previous
-              </span>
-              Advent of Code 2022 - Intro
-            </div>
-          </div>
-        </a>
-      
-      
-        
-        <a href="../advent-of-code-2022-day-2/" class="md-footer__link md-footer__link--next" aria-label="Next: Advent of Code 2022 - Day 2" rel="next">
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Next
-              </span>
-              Advent of Code 2022 - Day 2
-            </div>
-          </div>
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
-          </div>
-        </a>
-      
-    </nav>
-  
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
       <div class="md-copyright">
@@ -1067,6 +1234,8 @@
   
     
     
+    
+    
       
       
     
@@ -1074,6 +1243,8 @@
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22.46 6c-.77.35-1.6.58-2.46.69.88-.53 1.56-1.37 1.88-2.38-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29 0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15 0 1.49.75 2.81 1.91 3.56-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07 4.28 4.28 0 0 0 4 2.98 8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21 16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56.84-.6 1.56-1.36 2.14-2.23Z"/></svg>
     </a>
   
+    
+    
     
     
       
@@ -1094,10 +1265,10 @@
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "../../../..", "features": ["navigation.tracking", "navigation.tabs", "navigation.sections", "navigation.instant", "content.code.annotate", "search.suggest"], "search": "../../../../assets/javascripts/workers/search.939a4419.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../../../..", "features": ["navigation.tracking", "navigation.tabs", "navigation.sections", "navigation.instant", "content.code.annotate", "search.suggest"], "search": "../../../../assets/javascripts/workers/search.6c7302c4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../../../assets/javascripts/bundle.af94fead.min.js"></script>
+      <script src="../../../../assets/javascripts/bundle.10c6cd24.min.js"></script>
       
         <script src="../../../../js/timeago.min.js"></script>
       
@@ -1105,11 +1276,10 @@
       
         <script src="../../../../javascripts/mathjax.js"></script>
       
-        <script src="../../../../assets/external/polyfill.io/v3/polyfill.min.js"></script>
+        <script src="../../../../assets/external/polyfill.io/v3/polyfill.min.7596a0b8.js"></script>
       
-        <script src="../../../../assets/external/cdn.jsdelivr.net/npm/mathjax%403/es5/tex-mml-chtml.js"></script>
+        <script src="../../../../assets/external/cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       
-    
     
   </body>
 </html>
