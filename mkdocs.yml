@@ -93,3 +93,4 @@ nav:
     - Cluster:
       - Guides:
         - Adding a Node: homelab/cluster/guides/adding-a-node.md
+        - Adding a Host: homelab/cluster/guides/adding-a-host.md
