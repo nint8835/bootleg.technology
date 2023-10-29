@@ -9,6 +9,9 @@ links:
 
 categories:
   - Advent of Code
+
+authors:
+  - nint8835
 ---
 
 ![](./assets/intro.png)

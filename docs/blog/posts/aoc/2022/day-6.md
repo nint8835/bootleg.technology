@@ -8,6 +8,9 @@ links:
 
 categories:
   - Advent of Code
+
+authors:
+  - nint8835
 ---
 
 ![](./assets/day-6.png)

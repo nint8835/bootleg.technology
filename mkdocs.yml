@@ -62,8 +62,8 @@ markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji 
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - footnotes
   - tables
 
@@ -83,7 +83,7 @@ extra:
       link: https://twitter.com/bootlegjohn
     - icon: material/github
       link: https://github.com/nint8835
-copyright: Copyright &copy; 2022 Riley Flynn
+copyright: Copyright &copy; 2023 Riley Flynn
 
 nav:
   - Home: index.md

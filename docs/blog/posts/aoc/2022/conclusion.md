@@ -6,6 +6,9 @@ draft: true
 
 categories:
   - Advent of Code
+
+authors:
+  - nint8835
 ---
 
 ![](./assets/conclusion.png)
