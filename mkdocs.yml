@@ -25,7 +25,6 @@ plugins:
   - search
   - privacy
   - social
-  - optimize
   - tags:
       tags_file: tags.md
   - blog:
