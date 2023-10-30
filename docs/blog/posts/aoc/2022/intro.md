@@ -6,12 +6,6 @@ date: 2022-12-01
 links:
   - My solutions: https://github.com/nint8835/AdventOfCode2022
   - Jack's posts: https://www.cs.mun.ca/~jaharrhy/aoc/2022/
-
-categories:
-  - Advent of Code
-
-authors:
-  - nint8835
 ---
 
 ![](./assets/intro.png)

@@ -6,12 +6,6 @@ draft: true
 
 links:
   - My solution: https://github.com/nint8835/AdventOfCode2022/blob/main/Day4/Day4.fsx
-
-categories:
-  - Advent of Code
-
-authors:
-  - nint8835
 ---
 
 ![](./assets/day-4.png)

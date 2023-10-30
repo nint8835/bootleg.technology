@@ -5,12 +5,6 @@ date: 2022-12-02
 
 links:
   - My solution: https://github.com/nint8835/AdventOfCode2022/blob/main/Day2/Day2.fsx
-
-categories:
-  - Advent of Code
-
-authors:
-  - nint8835
 ---
 
 ![](./assets/day-2.png)
