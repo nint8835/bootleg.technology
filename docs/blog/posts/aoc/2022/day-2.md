@@ -9,8 +9,6 @@ links:
 
 ![](./assets/day-2.png)
 
-# Advent of Code 2022 - Day 2
-
 The battling between elves over who gets which tent has devolved into a giant rock paper scissors tournament. One elf has given us a strategy guide, we need to determine how much that guide is actually going to help us.
 
 <!-- more -->

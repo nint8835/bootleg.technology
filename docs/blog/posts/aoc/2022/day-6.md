@@ -9,8 +9,6 @@ links:
 
 ![](./assets/day-6.png)
 
-# Advent of Code 2022 - Day 6
-
 The elves gave us a malfunctioning communication device, now we need to build software to help fix it.
 
 <!-- more -->

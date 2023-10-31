@@ -9,8 +9,6 @@ links:
 
 ![](./assets/day-3.png)
 
-# Advent of Code 2022 - Day 3
-
 The elf in charge of packing for the journey failed to correctly follow instructions, now it's up to us to help locate & prioritize items.
 
 <!-- more -->

@@ -9,8 +9,6 @@ links:
 
 ![](./assets/day-1.png)
 
-# Advent of Code 2022 - Day 1
-
 Santa's elves have done a poor job keeping track of and properly distributing their food supplies, so it falls on us today to sort out how much the elves are carrying.
 
 <!-- more -->

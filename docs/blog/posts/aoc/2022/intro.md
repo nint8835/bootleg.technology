@@ -10,8 +10,6 @@ links:
 
 ![](./assets/intro.png)
 
-# Advent of Code 2022 - Intro
-
 Another year nearly over, and another December is upon us. _You know what that means?_ Time for another month of Advent of Code!
 
 <!-- more -->
