@@ -6,72 +6,450 @@ date: 2023-10-30
 draft: true
 ---
 
+![](./assets/candidates-cover.png)
+
 <!-- more -->
 
 ## Household names
 
-- Apple Notes
-- Evernote
-- Google Keep
-- Notion
-- OneNote
+These apps need no introduction. They're the ones that everybody knows about.
 
-## Canvas
+### Apple Notes
 
-- GoodNotes
-- Milanote
-- Notability
-- Scrintal
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :white_check_mark: |       |
+| Linux client | :x:                |       |
+| Web client   | :white_check_mark: |       |
+| iOS client   | :white_check_mark: |       |
+
+### Evernote
+
+| Criteria     | Value              | Notes                                              |
+| ------------ | ------------------ | -------------------------------------------------- |
+| Sync service | :white_check_mark: |                                                    |
+| Linux client | :question:         | In private beta, minimal details available online. |
+| Web client   | :white_check_mark: |                                                    |
+| iOS client   | :white_check_mark: |                                                    |
+
+### Google Keep
+
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :white_check_mark: |       |
+| Linux client | :x:                |       |
+| Web client   | :white_check_mark: |       |
+| iOS client   | :white_check_mark: |       |
+
+### Notion
+
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :white_check_mark: |       |
+| Linux client | :x:                |       |
+| Web client   | :white_check_mark: |       |
+| iOS client   | :white_check_mark: |       |
+
+### OneNote
+
+| Criteria     | Value              | Notes                                                                                                                             |
+| ------------ | ------------------ | --------------------------------------------------------------------------------------------------------------------------------- |
+| Sync service | :white_check_mark: |                                                                                                                                   |
+| Linux client | :x:                |                                                                                                                                   |
+| Web client   | :question:         | There was for sure a web client a few years ago, however I'm having trouble navigating the docs to figure out if it still exists. |
+| iOS client   | :white_check_mark: |                                                                                                                                   |
+
+## Handwritten / canvas-based
+
+These apps are more graphical-focused than what I'm looking for. They either focus on handwriting, or on a canvas-based approach to note-taking, which eliminates them basically immediately.
+
+### GoodNotes
+
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :white_check_mark: |       |
+| Linux client | :x:                |       |
+| Web client   | :x:                |       |
+| iOS client   | :white_check_mark: |       |
+
+### Milanote
+
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :white_check_mark: |       |
+| Linux client | :x:                |       |
+| Web client   | :white_check_mark: |       |
+| iOS client   | :white_check_mark: |       |
+
+### Notability
+
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :white_check_mark: |       |
+| Linux client | :x:                |       |
+| Web client   | :x:                |       |
+| iOS client   | :white_check_mark: |       |
+
+### Scrintal
+
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :white_check_mark: |       |
+| Linux client | :x:                |       |
+| Web client   | :white_check_mark: |       |
+| iOS client   | :x:                |       |
+
 
 ## How did we get here
 
-- Asana
-- ClickUp
-- OmniFocus
-- Things
+I will readily admit - I have absolutely zero memory of where I sourced / collected this list of note apps from. As a result, there are some items on this list that make absolutely _zero_ sense to me. Those items are these, which are all mostly to-do / task scheduling apps.
+
+### Asana
+
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :white_check_mark: |       |
+| Linux client | :x:                |       |
+| Web client   | :white_check_mark: |       |
+| iOS client   | :white_check_mark: |       |
+
+### ClickUp
+
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :white_check_mark: |       |
+| Linux client | :white_check_mark: |       |
+| Web client   | :white_check_mark: |       |
+| iOS client   | :white_check_mark: |       |
+
+### Clutter
+
+| Criteria     | Value | Notes |
+| ------------ | ----- | ----- |
+| Sync service | :x:   |       |
+| Linux client | :x:   |       |
+| Web client   | :x:   |       |
+| iOS client   | :x:   |       |
+
+### OmniFocus
+
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :white_check_mark: |       |
+| Linux client | :x:                |       |
+| Web client   | :white_check_mark: |       |
+| iOS client   | :white_check_mark: |       |
+
+### Things
+
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :white_check_mark: |       |
+| Linux client | :x:                |       |
+| Web client   | :x:                |       |
+| iOS client   | :white_check_mark: |       |
 
 ## Notion clones
 
-- Anytype
-- Coda
-- Craft
-- Taskade
+### Anytype
+
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :white_check_mark: |       |
+| Linux client | :white_check_mark: |       |
+| Web client   | :x:                |       |
+| iOS client   | :white_check_mark: |       |
+
+### Coda
+
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :white_check_mark: |       |
+| Linux client | :x:                |       |
+| Web client   | :white_check_mark: |       |
+| iOS client   | :white_check_mark: |       |
+
+### Craft
+
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :white_check_mark: |       |
+| Linux client | :x:                |       |
+| Web client   | :white_check_mark: |       |
+| iOS client   | :white_check_mark: |       |
+
+### Taskade
+
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :white_check_mark: |       |
+| Linux client | :white_check_mark: |       |
+| Web client   | :white_check_mark: |       |
+| iOS client   | :white_check_mark: |       |
 
 ## Evernote clones
 
-- Nimbus Note
-- Notejoy
-- Notesnook
-- Standard Notes
-- Upnote
+### Nimbus Note
+
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :white_check_mark: |       |
+| Linux client | :x:                |       |
+| Web client   | :white_check_mark: |       |
+| iOS client   | :white_check_mark: |       |
+
+### Notejoy
+
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :white_check_mark: |       |
+| Linux client | :x:                |       |
+| Web client   | :white_check_mark: |       |
+| iOS client   | :white_check_mark: |       |
+
+### Notesnook
+
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :white_check_mark: |       |
+| Linux client | :white_check_mark: |       |
+| Web client   | :white_check_mark: |       |
+| iOS client   | :white_check_mark: |       |
+
+### Standard Notes
+
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :white_check_mark: |       |
+| Linux client | :white_check_mark: |       |
+| Web client   | :white_check_mark: |       |
+| iOS client   | :white_check_mark: |       |
+
+### Upnote
+
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :white_check_mark: |       |
+| Linux client | :white_check_mark: |       |
+| Web client   | :x:                |       |
+| iOS client   | :white_check_mark: |       |
 
 ## Apple-only
 
-- Bear
-- Drafts
+### Bear
+
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :white_check_mark: |       |
+| Linux client | :x:                |       |
+| Web client   | :x:                |       |
+| iOS client   | :white_check_mark: |       |
+
+### Drafts
+
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :x:                |       |
+| Linux client | :x:                |       |
+| Web client   | :x:                |       |
+| iOS client   | :white_check_mark: |       |
 
 ## TODO
 
-- acreom
-- Amplenote
-- Bundled Notes
-- Capacities
-- Clutter
-- Devonthink
-- Dropbox Paper
-- Dynalist
-- Inkdrop
-- Joplin
-- Logseq
-- Mem
-- Notable
-- Obsidian
-- Reflect
-- Remnote
-- Roam Research
-- Simplenote
-- Supernotes
-- Tana
-- TiddlyWiki
-- Workflowy
-- Zettlr
+### acreom
+
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :white_check_mark: |       |
+| Linux client | :white_check_mark: |       |
+| Web client   | :white_check_mark: |       |
+| iOS client   | :white_check_mark: |       |
+
+### Amplenote
+
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :white_check_mark: |       |
+| Linux client | :x:                |       |
+| Web client   | :white_check_mark: |       |
+| iOS client   | :white_check_mark: |       |
+
+### Bundled Notes
+
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :x:                |       |
+| Linux client | :x:                |       |
+| Web client   | :white_check_mark: |       |
+| iOS client   | :x:                |       |
+
+### Capacities
+
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :white_check_mark: |       |
+| Linux client | :x:                |       |
+| Web client   | :white_check_mark: |       |
+| iOS client   | :white_check_mark: |       |
+
+### Devonthink
+
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :white_check_mark: |       |
+| Linux client | :x:                |       |
+| Web client   | :x:                |       |
+| iOS client   | :white_check_mark: |       |
+
+### Dropbox Paper
+
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :white_check_mark: |       |
+| Linux client | :x:                |       |
+| Web client   | :white_check_mark: |       |
+| iOS client   | :white_check_mark: |       |
+
+### Dynalist
+
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :white_check_mark: |       |
+| Linux client | :white_check_mark: |       |
+| Web client   | :white_check_mark: |       |
+| iOS client   | :white_check_mark: |       |
+
+### Inkdrop
+
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :white_check_mark: |       |
+| Linux client | :white_check_mark: |       |
+| Web client   | :x:                |       |
+| iOS client   | :white_check_mark: |       |
+
+### Joplin
+
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :white_check_mark: |       |
+| Linux client | :white_check_mark: |       |
+| Web client   | :x:                |       |
+| iOS client   | :white_check_mark: |       |
+
+### Logseq
+
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :white_check_mark: |       |
+| Linux client | :white_check_mark: |       |
+| Web client   | :x:                |       |
+| iOS client   | :white_check_mark: |       |
+
+### Mem
+
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :white_check_mark: |       |
+| Linux client | :x:                |       |
+| Web client   | :white_check_mark: |       |
+| iOS client   | :white_check_mark: |       |
+
+### Notable
+
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :x:                |       |
+| Linux client | :white_check_mark: |       |
+| Web client   | :x:                |       |
+| iOS client   | :x:                |       |
+
+### Obsidian
+
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :white_check_mark: |       |
+| Linux client | :white_check_mark: |       |
+| Web client   | :x:                |       |
+| iOS client   | :white_check_mark: |       |
+
+### Reflect
+
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :white_check_mark: |       |
+| Linux client | :x:                |       |
+| Web client   | :white_check_mark: |       |
+| iOS client   | :white_check_mark: |       |
+
+### Remnote
+
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :white_check_mark: |       |
+| Linux client | :white_check_mark: |       |
+| Web client   | :white_check_mark: |       |
+| iOS client   | :white_check_mark: |       |
+
+### Roam Research
+
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :white_check_mark: |       |
+| Linux client | :x:                |       |
+| Web client   | :white_check_mark: |       |
+| iOS client   | :x:                |       |
+
+### Simplenote
+
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :white_check_mark: |       |
+| Linux client | :white_check_mark: |       |
+| Web client   | :x:                |       |
+| iOS client   | :white_check_mark: |       |
+
+### Supernotes
+
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :white_check_mark: |       |
+| Linux client | :white_check_mark: |       |
+| Web client   | :white_check_mark: |       |
+| iOS client   | :white_check_mark: |       |
+
+### Tana
+
+| Criteria     | Value              | Notes                                |
+| ------------ | ------------------ | ------------------------------------ |
+| Sync service | :white_check_mark: |                                      |
+| Linux client | :x:                |                                      |
+| Web client   | :white_check_mark: |                                      |
+| iOS client   | :question:         | iOS app exists, but is capture-only. |
+
+### TiddlyWiki
+
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :white_check_mark: |       |
+| Linux client | :x:                |       |
+| Web client   | :white_check_mark: |       |
+| iOS client   | :white_check_mark: |       |
+
+### Workflowy
+
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :white_check_mark: |       |
+| Linux client | :white_check_mark: |       |
+| Web client   | :white_check_mark: |       |
+| iOS client   | :white_check_mark: |       |
+
+### Zettlr
+
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :x:                |       |
+| Linux client | :white_check_mark: |       |
+| Web client   | :x:                |       |
+| iOS client   | :x:                |       |

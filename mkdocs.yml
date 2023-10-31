@@ -18,6 +18,7 @@ theme:
     - navigation.instant.prefetch
     - navigation.instant.progress
     - content.code.annotate
+    - content.tooltips
     - search.suggest
 
 plugins:
