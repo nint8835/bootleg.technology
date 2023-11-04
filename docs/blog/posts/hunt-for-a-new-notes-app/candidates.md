@@ -232,6 +232,8 @@ I will readily admit - I have absolutely zero memory of where I sourced / collec
 
 ### Nimbus Note
 
+![Nimbus Note](./assets/nimbus-note.png){ loading=lazy }
+
 | Criteria     | Value              | Notes |
 | ------------ | ------------------ | ----- |
 | Sync service | :white_check_mark: |       |
@@ -240,6 +242,8 @@ I will readily admit - I have absolutely zero memory of where I sourced / collec
 | iOS client   | :white_check_mark: |       |
 
 ### Notejoy
+
+![Notejoy](./assets/notejoy.png){ loading=lazy }
 
 | Criteria     | Value              | Notes |
 | ------------ | ------------------ | ----- |
@@ -250,6 +254,8 @@ I will readily admit - I have absolutely zero memory of where I sourced / collec
 
 ### Notesnook
 
+![Notesnook](./assets/notesnook.png){ loading=lazy }
+
 | Criteria     | Value              | Notes |
 | ------------ | ------------------ | ----- |
 | Sync service | :white_check_mark: |       |
@@ -259,6 +265,8 @@ I will readily admit - I have absolutely zero memory of where I sourced / collec
 
 ### Standard Notes
 
+![Standard Notes](./assets/standard-notes.png){ loading=lazy }
+
 | Criteria     | Value              | Notes |
 | ------------ | ------------------ | ----- |
 | Sync service | :white_check_mark: |       |
@@ -267,6 +275,8 @@ I will readily admit - I have absolutely zero memory of where I sourced / collec
 | iOS client   | :white_check_mark: |       |
 
 ### Upnote
+
+![Upnote](./assets/upnote.png){ loading=lazy }
 
 | Criteria     | Value              | Notes |
 | ------------ | ------------------ | ----- |
@@ -279,6 +289,8 @@ I will readily admit - I have absolutely zero memory of where I sourced / collec
 
 ### Bear
 
+![Bear](./assets/bear.png){ loading=lazy }
+
 | Criteria     | Value              | Notes |
 | ------------ | ------------------ | ----- |
 | Sync service | :white_check_mark: |       |
@@ -287,6 +299,8 @@ I will readily admit - I have absolutely zero memory of where I sourced / collec
 | iOS client   | :white_check_mark: |       |
 
 ### Drafts
+
+![Drafts](./assets/drafts.png){ loading=lazy }
 
 | Criteria     | Value              | Notes |
 | ------------ | ------------------ | ----- |
