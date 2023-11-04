@@ -313,6 +313,8 @@ I will readily admit - I have absolutely zero memory of where I sourced / collec
 
 ### acreom
 
+![acreom](./assets/acreom.png){ loading=lazy }
+
 | Criteria     | Value              | Notes |
 | ------------ | ------------------ | ----- |
 | Sync service | :white_check_mark: |       |
@@ -321,6 +323,8 @@ I will readily admit - I have absolutely zero memory of where I sourced / collec
 | iOS client   | :white_check_mark: |       |
 
 ### Amplenote
+
+![Amplenote](./assets/amplenote.png){ loading=lazy }
 
 | Criteria     | Value              | Notes |
 | ------------ | ------------------ | ----- |
@@ -331,6 +335,8 @@ I will readily admit - I have absolutely zero memory of where I sourced / collec
 
 ### Bundled Notes
 
+![Bundled Notes](./assets/bundled-notes.png){ loading=lazy }
+
 | Criteria     | Value              | Notes |
 | ------------ | ------------------ | ----- |
 | Sync service | :x:                |       |
@@ -339,6 +345,8 @@ I will readily admit - I have absolutely zero memory of where I sourced / collec
 | iOS client   | :x:                |       |
 
 ### Capacities
+
+![Capacities](./assets/capacities.png){ loading=lazy }
 
 | Criteria     | Value              | Notes |
 | ------------ | ------------------ | ----- |
