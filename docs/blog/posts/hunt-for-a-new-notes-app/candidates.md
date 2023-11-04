@@ -16,6 +16,8 @@ These apps need no introduction. They're the ones that everybody knows about.
 
 ### Apple Notes
 
+![Apple Notes](./assets/apple-notes.png){ loading=lazy }
+
 | Criteria     | Value              | Notes |
 | ------------ | ------------------ | ----- |
 | Sync service | :white_check_mark: |       |
@@ -24,6 +26,8 @@ These apps need no introduction. They're the ones that everybody knows about.
 | iOS client   | :white_check_mark: |       |
 
 ### Evernote
+
+![Evernote](./assets/evernote.png){ loading=lazy }
 
 | Criteria     | Value              | Notes                                              |
 | ------------ | ------------------ | -------------------------------------------------- |
@@ -34,6 +38,8 @@ These apps need no introduction. They're the ones that everybody knows about.
 
 ### Google Keep
 
+![Google Keep](./assets/google-keep.png){ loading=lazy }
+
 | Criteria     | Value              | Notes |
 | ------------ | ------------------ | ----- |
 | Sync service | :white_check_mark: |       |
@@ -43,6 +49,8 @@ These apps need no introduction. They're the ones that everybody knows about.
 
 ### Notion
 
+![Notion](./assets/notion.png){ loading=lazy }
+
 | Criteria     | Value              | Notes |
 | ------------ | ------------------ | ----- |
 | Sync service | :white_check_mark: |       |
@@ -51,6 +59,8 @@ These apps need no introduction. They're the ones that everybody knows about.
 | iOS client   | :white_check_mark: |       |
 
 ### OneNote
+
+![OneNote](./assets/onenote.png){ loading=lazy }
 
 | Criteria     | Value              | Notes                                                                                                                             |
 | ------------ | ------------------ | --------------------------------------------------------------------------------------------------------------------------------- |
@@ -65,6 +75,8 @@ These apps are more graphical-focused than what I'm looking for. They either foc
 
 ### GoodNotes
 
+![GoodNotes](./assets/goodnotes.png){ loading=lazy }
+
 | Criteria     | Value              | Notes |
 | ------------ | ------------------ | ----- |
 | Sync service | :white_check_mark: |       |
@@ -73,6 +85,8 @@ These apps are more graphical-focused than what I'm looking for. They either foc
 | iOS client   | :white_check_mark: |       |
 
 ### Milanote
+
+![Milanote](./assets/milanote.png){ loading=lazy }
 
 | Criteria     | Value              | Notes |
 | ------------ | ------------------ | ----- |
@@ -83,6 +97,8 @@ These apps are more graphical-focused than what I'm looking for. They either foc
 
 ### Notability
 
+![Notability](./assets/notability.png){ loading=lazy }
+
 | Criteria     | Value              | Notes |
 | ------------ | ------------------ | ----- |
 | Sync service | :white_check_mark: |       |
@@ -91,6 +107,8 @@ These apps are more graphical-focused than what I'm looking for. They either foc
 | iOS client   | :white_check_mark: |       |
 
 ### Scrintal
+
+![Scrintal](./assets/scrintal.png){ loading=lazy }
 
 | Criteria     | Value              | Notes |
 | ------------ | ------------------ | ----- |
@@ -106,6 +124,8 @@ I will readily admit - I have absolutely zero memory of where I sourced / collec
 
 ### Asana
 
+![Asana](./assets/asana.png){ loading=lazy }
+
 | Criteria     | Value              | Notes |
 | ------------ | ------------------ | ----- |
 | Sync service | :white_check_mark: |       |
@@ -114,6 +134,8 @@ I will readily admit - I have absolutely zero memory of where I sourced / collec
 | iOS client   | :white_check_mark: |       |
 
 ### ClickUp
+
+![ClickUp](./assets/clickup.png){ loading=lazy }
 
 | Criteria     | Value              | Notes |
 | ------------ | ------------------ | ----- |
@@ -124,6 +146,8 @@ I will readily admit - I have absolutely zero memory of where I sourced / collec
 
 ### Clutter
 
+![Clutter](./assets/clutter.png){ loading=lazy width=400 }
+
 | Criteria     | Value | Notes |
 | ------------ | ----- | ----- |
 | Sync service | :x:   |       |
@@ -131,7 +155,14 @@ I will readily admit - I have absolutely zero memory of where I sourced / collec
 | Web client   | :x:   |       |
 | iOS client   | :x:   |       |
 
+<figure markdown>
+  ![Clutter site](./assets/clutter-site.png){ loading=lazy }
+  <figcaption>Clutter Notes site</figcaption>
+</figure>
+
 ### OmniFocus
+
+![OmniFocus](./assets/omnifocus.png){ loading=lazy }
 
 | Criteria     | Value              | Notes |
 | ------------ | ------------------ | ----- |
@@ -141,6 +172,8 @@ I will readily admit - I have absolutely zero memory of where I sourced / collec
 | iOS client   | :white_check_mark: |       |
 
 ### Things
+
+![Things](./assets/things.png){ loading=lazy }
 
 | Criteria     | Value              | Notes |
 | ------------ | ------------------ | ----- |
