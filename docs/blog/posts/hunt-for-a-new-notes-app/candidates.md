@@ -186,6 +186,8 @@ I will readily admit - I have absolutely zero memory of where I sourced / collec
 
 ### Anytype
 
+![Anytype](./assets/anytype.png){ loading=lazy }
+
 | Criteria     | Value              | Notes |
 | ------------ | ------------------ | ----- |
 | Sync service | :white_check_mark: |       |
@@ -194,6 +196,8 @@ I will readily admit - I have absolutely zero memory of where I sourced / collec
 | iOS client   | :white_check_mark: |       |
 
 ### Coda
+
+![Coda](./assets/coda.png){ loading=lazy }
 
 | Criteria     | Value              | Notes |
 | ------------ | ------------------ | ----- |
@@ -204,6 +208,8 @@ I will readily admit - I have absolutely zero memory of where I sourced / collec
 
 ### Craft
 
+![Craft](./assets/craft.png){ loading=lazy }
+
 | Criteria     | Value              | Notes |
 | ------------ | ------------------ | ----- |
 | Sync service | :white_check_mark: |       |
@@ -212,6 +218,8 @@ I will readily admit - I have absolutely zero memory of where I sourced / collec
 | iOS client   | :white_check_mark: |       |
 
 ### Taskade
+
+![Taskade](./assets/taskade.png){ loading=lazy }
 
 | Criteria     | Value              | Notes |
 | ------------ | ------------------ | ----- |
