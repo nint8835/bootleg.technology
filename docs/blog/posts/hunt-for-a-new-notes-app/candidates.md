@@ -355,7 +355,9 @@ I will readily admit - I have absolutely zero memory of where I sourced / collec
 | Web client   | :white_check_mark: |       |
 | iOS client   | :white_check_mark: |       |
 
-### Devonthink
+### DEVONthink
+
+![DEVONthink](./assets/devonthink.png){ loading=lazy }
 
 | Criteria     | Value              | Notes |
 | ------------ | ------------------ | ----- |
@@ -366,6 +368,8 @@ I will readily admit - I have absolutely zero memory of where I sourced / collec
 
 ### Dropbox Paper
 
+![Dropbox Paper](./assets/dropbox-paper.png){ loading=lazy }
+
 | Criteria     | Value              | Notes |
 | ------------ | ------------------ | ----- |
 | Sync service | :white_check_mark: |       |
@@ -374,6 +378,8 @@ I will readily admit - I have absolutely zero memory of where I sourced / collec
 | iOS client   | :white_check_mark: |       |
 
 ### Dynalist
+
+![Dynalist](./assets/dynalist.png){ loading=lazy }
 
 | Criteria     | Value              | Notes |
 | ------------ | ------------------ | ----- |
@@ -384,6 +390,8 @@ I will readily admit - I have absolutely zero memory of where I sourced / collec
 
 ### Inkdrop
 
+![Inkdrop](./assets/inkdrop.png){ loading=lazy }
+
 | Criteria     | Value              | Notes |
 | ------------ | ------------------ | ----- |
 | Sync service | :white_check_mark: |       |
@@ -392,6 +400,8 @@ I will readily admit - I have absolutely zero memory of where I sourced / collec
 | iOS client   | :white_check_mark: |       |
 
 ### Joplin
+
+![Joplin](./assets/joplin.png){ loading=lazy }
 
 | Criteria     | Value              | Notes |
 | ------------ | ------------------ | ----- |
@@ -402,6 +412,8 @@ I will readily admit - I have absolutely zero memory of where I sourced / collec
 
 ### Logseq
 
+![Logseq](./assets/logseq.png){ loading=lazy }
+
 | Criteria     | Value              | Notes |
 | ------------ | ------------------ | ----- |
 | Sync service | :white_check_mark: |       |
@@ -410,6 +422,8 @@ I will readily admit - I have absolutely zero memory of where I sourced / collec
 | iOS client   | :white_check_mark: |       |
 
 ### Mem
+
+![Mem](./assets/mem.png){ loading=lazy }
 
 | Criteria     | Value              | Notes |
 | ------------ | ------------------ | ----- |
@@ -420,6 +434,8 @@ I will readily admit - I have absolutely zero memory of where I sourced / collec
 
 ### Notable
 
+![Notable](./assets/notable.png){ loading=lazy }
+
 | Criteria     | Value              | Notes |
 | ------------ | ------------------ | ----- |
 | Sync service | :x:                |       |
@@ -428,6 +444,8 @@ I will readily admit - I have absolutely zero memory of where I sourced / collec
 | iOS client   | :x:                |       |
 
 ### Obsidian
+
+![Obsidian](./assets/obsidian.png){ loading=lazy }
 
 | Criteria     | Value              | Notes |
 | ------------ | ------------------ | ----- |
@@ -438,6 +456,8 @@ I will readily admit - I have absolutely zero memory of where I sourced / collec
 
 ### Reflect
 
+![Reflect](./assets/reflect.png){ loading=lazy }
+
 | Criteria     | Value              | Notes |
 | ------------ | ------------------ | ----- |
 | Sync service | :white_check_mark: |       |
@@ -446,6 +466,8 @@ I will readily admit - I have absolutely zero memory of where I sourced / collec
 | iOS client   | :white_check_mark: |       |
 
 ### Remnote
+
+![Remnote](./assets/remnote.png){ loading=lazy }
 
 | Criteria     | Value              | Notes |
 | ------------ | ------------------ | ----- |
@@ -456,6 +478,8 @@ I will readily admit - I have absolutely zero memory of where I sourced / collec
 
 ### Roam Research
 
+![Roam Research](./assets/roam-research.png){ loading=lazy }
+
 | Criteria     | Value              | Notes |
 | ------------ | ------------------ | ----- |
 | Sync service | :white_check_mark: |       |
@@ -464,6 +488,8 @@ I will readily admit - I have absolutely zero memory of where I sourced / collec
 | iOS client   | :x:                |       |
 
 ### Simplenote
+
+![Simplenote](./assets/simplenote.png){ loading=lazy }
 
 | Criteria     | Value              | Notes |
 | ------------ | ------------------ | ----- |
@@ -474,6 +500,8 @@ I will readily admit - I have absolutely zero memory of where I sourced / collec
 
 ### Supernotes
 
+![Supernotes](./assets/supernotes.png){ loading=lazy }
+
 | Criteria     | Value              | Notes |
 | ------------ | ------------------ | ----- |
 | Sync service | :white_check_mark: |       |
@@ -483,14 +511,18 @@ I will readily admit - I have absolutely zero memory of where I sourced / collec
 
 ### Tana
 
+![Tana](./assets/tana.png){ loading=lazy }
+
 | Criteria     | Value              | Notes                                |
 | ------------ | ------------------ | ------------------------------------ |
 | Sync service | :white_check_mark: |                                      |
-| Linux client | :x:                |                                      |
+| Linux client | :white_check_mark: |                                      |
 | Web client   | :white_check_mark: |                                      |
 | iOS client   | :question:         | iOS app exists, but is capture-only. |
 
 ### TiddlyWiki
+
+![TiddlyWiki](./assets/tiddlywiki.png){ loading=lazy }
 
 | Criteria     | Value              | Notes |
 | ------------ | ------------------ | ----- |
@@ -501,6 +533,8 @@ I will readily admit - I have absolutely zero memory of where I sourced / collec
 
 ### Workflowy
 
+![Workflowy](./assets/workflowy.png){ loading=lazy }
+
 | Criteria     | Value              | Notes |
 | ------------ | ------------------ | ----- |
 | Sync service | :white_check_mark: |       |
@@ -509,6 +543,8 @@ I will readily admit - I have absolutely zero memory of where I sourced / collec
 | iOS client   | :white_check_mark: |       |
 
 ### Zettlr
+
+![Zettlr](./assets/zettlr.png){ loading=lazy }
 
 | Criteria     | Value              | Notes |
 | ------------ | ------------------ | ----- |
