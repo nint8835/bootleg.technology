@@ -45,6 +45,8 @@ These are the apps that most people have likely heard of, and as a result requir
 | Web client   | :white_check_mark: |       |
 | iOS client   | :white_check_mark: |       |
 
+Apple Notes is, I believe, most likely the #1 most used app on this list. It's built into every iPad, iPhone, and Mac on the market, and as a result is incredibly widely used. It's a plenty capable notes app, with support for a wide variety of note content types and is continually being added to with each new Apple event. Unfortunately, the fact it's so Apple-focused means it's not really a great option for me. It does have a web client, but that web client is nowhere near as good as the native client.
+
 ### Evernote
 
 ![Evernote](./assets/evernote.png){ loading=lazy }
@@ -55,6 +57,15 @@ These are the apps that most people have likely heard of, and as a result requir
 | Linux client | :question:         | In private beta, minimal details available online. |
 | Web client   | :white_check_mark: |                                                    |
 | iOS client   | :white_check_mark: |                                                    |
+
+Evernote is _the classic_ notes app. It was wildly popular years ago, but unfortunately with it's waning popularity has come a general implosion of the company. In particular, this year alone, they:
+
+- [Were acquired by Bending Spoons](https://evernote.com/blog/evernote-next-move-joining-bending-spoons), a company with a business model that is largely based around acquiring existing successful companies and absolutely bleeding the product dry
+    - For more details on their history of acquisitions & business model, see [this Substack post](https://impassionedmoderate.substack.com/p/ryan-reynolds-didnt-pay-close-enough)
+- [Laid off most if not all of their existing employees](https://evernote.com/blog/moving-the-evernote-center-of-operations-to-europe)
+- [Jacked up prices by as high as 80%](https://evernote.com/blog/evernote-pricing-upcoming-features-update)
+
+As a result, no matter _how good_ Evernote may be (my understanding is not very, having not innovated for years), I'm not looking at hopping on an obviously sinking ship.
 
 ### Google Keep
 
@@ -67,6 +78,8 @@ These are the apps that most people have likely heard of, and as a result requir
 | Web client   | :white_check_mark: |       |
 | iOS client   | :white_check_mark: |       |
 
+Google Keep is Google's answer to Apple Notes. It's simple & clean, great for storing things like a quick note or a shopping list, but not great for anything more complex than that. Additionally, it's a Google product, with a level of care given to it that matches. The [Google Keep website](https://www.google.com/keep/) features screenshots & mockups featuring a Nexus 6 - a phone launched in 2014, and discontinued in 2015. I think it's just a matter of time before Google Keep ends up on [Killed by Google](https://killedbygoogle.com/), like Google Notebook & Google Wave before it.
+
 ### Notion
 
 ![Notion](./assets/notion.png){ loading=lazy }
@@ -78,6 +91,8 @@ These are the apps that most people have likely heard of, and as a result requir
 | Web client   | :white_check_mark: |       |
 | iOS client   | :white_check_mark: |       |
 
+Notion is my current primary notes app, and also (I believe) the closest thing to a modern Evernote, popularity-wise. It provides a wide variety of embeddable content types, support for arbitrarily-nested notes, and support for advanced features such as databases, letting the user build their own perfect system. If this whole experiment is a failure, I'm probably going to end up just consolidating everything on Notion. It's a bit slow, but on the whole it's a good product with a good pace of updates and a good set of features & UX.
+
 ### OneNote
 
 ![OneNote](./assets/onenote.png){ loading=lazy }
@@ -88,6 +103,13 @@ These are the apps that most people have likely heard of, and as a result requir
 | Linux client | :x:                |                                                                                                                                   |
 | Web client   | :question:         | There was for sure a web client a few years ago, however I'm having trouble navigating the docs to figure out if it still exists. |
 | iOS client   | :white_check_mark: |                                                                                                                                   |
+
+This is without a doubt the app on this list I've spent the most time with. Originally launched as a paid companion add-on for the Microsoft Office suite for Microsoft Tablet PCs in Office 2003 and later merged into the main suite in Office 2007, OneNote has since become the defacto notes app for users of Microsoft's Surface line of products. As I used a Surface Pro throughout university for note taking, I've spent _MANY_ hours across several years using OneNote for capturing lecture notes.
+
+It is a quite capable notes app, providing a melding of Evernote-styled UX with Microsoft Office-based text & object options, with a layering of an additional focus of pen input on top of that.
+Unfortunately, the Microsoft Office foundations underlying that provide such great options for note content also serve to kneecap one of the most important features of a multi-device notes app - the sync service. OneNote uses OneDrive under the hood for syncing, which already isn't ideal if you're not all-in on the Microsoft 365 ecosystem, but as best as I can tell at least as of last time I used it, they absolutely botched the implementation of it. Syncing is slow and janky, and trying to open OneNote on a new device is always an exercise in patience as you sit and wait _minutes_ for it to try and pull down your existing notebooks, no matter how empty the notebooks are. Seemingly even just an empty 100KB notebook in your account is enough to have you to deal with this.
+
+If I were looking for something to use with a pen on my Surface Pro, I'd pick this up again without a second thought, but I'm not.
 
 ## Handwritten / Canvas-based
 
