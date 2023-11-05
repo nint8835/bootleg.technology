@@ -26,16 +26,21 @@ plugins:
   - search
   - privacy
   - social
+
   - tags:
       tags_file: tags.md
+
   - blog:
       post_url_date_format: yyyy/MM
       categories_allowed:
         - Advent of Code
+        - Tools
+
   - git-revision-date-localized:
       enable_creation_date: true
       fallback_to_build_date: true
       type: timeago
+
   - rss:
       match_path: blog/posts/.* 
       date_from_meta:
