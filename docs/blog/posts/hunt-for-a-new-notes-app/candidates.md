@@ -133,6 +133,17 @@ I will readily admit - I have absolutely zero memory of where I sourced / collec
 | Web client   | :white_check_mark: |       |
 | iOS client   | :white_check_mark: |       |
 
+### Bundled Notes
+
+![Bundled Notes](./assets/bundled-notes.png){ loading=lazy }
+
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :x:                |       |
+| Linux client | :x:                |       |
+| Web client   | :white_check_mark: |       |
+| iOS client   | :x:                |       |
+
 ### ClickUp
 
 ![ClickUp](./assets/clickup.png){ loading=lazy }
@@ -168,6 +179,17 @@ I will readily admit - I have absolutely zero memory of where I sourced / collec
 | ------------ | ------------------ | ----- |
 | Sync service | :white_check_mark: |       |
 | Linux client | :x:                |       |
+| Web client   | :white_check_mark: |       |
+| iOS client   | :white_check_mark: |       |
+
+### Remnote
+
+![Remnote](./assets/remnote.png){ loading=lazy }
+
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :white_check_mark: |       |
+| Linux client | :white_check_mark: |       |
 | Web client   | :white_check_mark: |       |
 | iOS client   | :white_check_mark: |       |
 
@@ -217,18 +239,51 @@ I will readily admit - I have absolutely zero memory of where I sourced / collec
 | Web client   | :white_check_mark: |       |
 | iOS client   | :white_check_mark: |       |
 
-### Taskade
+### Dropbox Paper
 
-![Taskade](./assets/taskade.png){ loading=lazy }
+![Dropbox Paper](./assets/dropbox-paper.png){ loading=lazy }
+
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :white_check_mark: |       |
+| Linux client | :x:                |       |
+| Web client   | :white_check_mark: |       |
+| iOS client   | :white_check_mark: |       |
+
+## Evernote clones
+
+### Amplenote
+
+![Amplenote](./assets/amplenote.png){ loading=lazy }
+
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :white_check_mark: |       |
+| Linux client | :x:                |       |
+| Web client   | :white_check_mark: |       |
+| iOS client   | :white_check_mark: |       |
+
+### Inkdrop
+
+![Inkdrop](./assets/inkdrop.png){ loading=lazy }
 
 | Criteria     | Value              | Notes |
 | ------------ | ------------------ | ----- |
 | Sync service | :white_check_mark: |       |
 | Linux client | :white_check_mark: |       |
-| Web client   | :white_check_mark: |       |
+| Web client   | :x:                |       |
 | iOS client   | :white_check_mark: |       |
 
-## Evernote clones
+### Joplin
+
+![Joplin](./assets/joplin.png){ loading=lazy }
+
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :white_check_mark: |       |
+| Linux client | :white_check_mark: |       |
+| Web client   | :x:                |       |
+| iOS client   | :white_check_mark: |       |
 
 ### Nimbus Note
 
@@ -240,6 +295,17 @@ I will readily admit - I have absolutely zero memory of where I sourced / collec
 | Linux client | :x:                |       |
 | Web client   | :white_check_mark: |       |
 | iOS client   | :white_check_mark: |       |
+
+### Notable
+
+![Notable](./assets/notable.png){ loading=lazy }
+
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :x:                |       |
+| Linux client | :white_check_mark: |       |
+| Web client   | :x:                |       |
+| iOS client   | :x:                |       |
 
 ### Notejoy
 
@@ -261,6 +327,17 @@ I will readily admit - I have absolutely zero memory of where I sourced / collec
 | Sync service | :white_check_mark: |       |
 | Linux client | :white_check_mark: |       |
 | Web client   | :white_check_mark: |       |
+| iOS client   | :white_check_mark: |       |
+
+### Simplenote
+
+![Simplenote](./assets/simplenote.png){ loading=lazy }
+
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :white_check_mark: |       |
+| Linux client | :white_check_mark: |       |
+| Web client   | :x:                |       |
 | iOS client   | :white_check_mark: |       |
 
 ### Standard Notes
@@ -298,63 +375,6 @@ I will readily admit - I have absolutely zero memory of where I sourced / collec
 | Web client   | :x:                |       |
 | iOS client   | :white_check_mark: |       |
 
-### Drafts
-
-![Drafts](./assets/drafts.png){ loading=lazy }
-
-| Criteria     | Value              | Notes |
-| ------------ | ------------------ | ----- |
-| Sync service | :x:                |       |
-| Linux client | :x:                |       |
-| Web client   | :x:                |       |
-| iOS client   | :white_check_mark: |       |
-
-## TODO
-
-### acreom
-
-![acreom](./assets/acreom.png){ loading=lazy }
-
-| Criteria     | Value              | Notes |
-| ------------ | ------------------ | ----- |
-| Sync service | :white_check_mark: |       |
-| Linux client | :white_check_mark: |       |
-| Web client   | :white_check_mark: |       |
-| iOS client   | :white_check_mark: |       |
-
-### Amplenote
-
-![Amplenote](./assets/amplenote.png){ loading=lazy }
-
-| Criteria     | Value              | Notes |
-| ------------ | ------------------ | ----- |
-| Sync service | :white_check_mark: |       |
-| Linux client | :x:                |       |
-| Web client   | :white_check_mark: |       |
-| iOS client   | :white_check_mark: |       |
-
-### Bundled Notes
-
-![Bundled Notes](./assets/bundled-notes.png){ loading=lazy }
-
-| Criteria     | Value              | Notes |
-| ------------ | ------------------ | ----- |
-| Sync service | :x:                |       |
-| Linux client | :x:                |       |
-| Web client   | :white_check_mark: |       |
-| iOS client   | :x:                |       |
-
-### Capacities
-
-![Capacities](./assets/capacities.png){ loading=lazy }
-
-| Criteria     | Value              | Notes |
-| ------------ | ------------------ | ----- |
-| Sync service | :white_check_mark: |       |
-| Linux client | :x:                |       |
-| Web client   | :white_check_mark: |       |
-| iOS client   | :white_check_mark: |       |
-
 ### DEVONthink
 
 ![DEVONthink](./assets/devonthink.png){ loading=lazy }
@@ -366,60 +386,20 @@ I will readily admit - I have absolutely zero memory of where I sourced / collec
 | Web client   | :x:                |       |
 | iOS client   | :white_check_mark: |       |
 
-### Dropbox Paper
+### Drafts
 
-![Dropbox Paper](./assets/dropbox-paper.png){ loading=lazy }
+![Drafts](./assets/drafts.png){ loading=lazy }
 
 | Criteria     | Value              | Notes |
 | ------------ | ------------------ | ----- |
-| Sync service | :white_check_mark: |       |
+| Sync service | :x:                |       |
 | Linux client | :x:                |       |
-| Web client   | :white_check_mark: |       |
-| iOS client   | :white_check_mark: |       |
-
-### Dynalist
-
-![Dynalist](./assets/dynalist.png){ loading=lazy }
-
-| Criteria     | Value              | Notes |
-| ------------ | ------------------ | ----- |
-| Sync service | :white_check_mark: |       |
-| Linux client | :white_check_mark: |       |
-| Web client   | :white_check_mark: |       |
-| iOS client   | :white_check_mark: |       |
-
-### Inkdrop
-
-![Inkdrop](./assets/inkdrop.png){ loading=lazy }
-
-| Criteria     | Value              | Notes |
-| ------------ | ------------------ | ----- |
-| Sync service | :white_check_mark: |       |
-| Linux client | :white_check_mark: |       |
 | Web client   | :x:                |       |
 | iOS client   | :white_check_mark: |       |
 
-### Joplin
+## Chasing the New Hot Thing™
 
-![Joplin](./assets/joplin.png){ loading=lazy }
-
-| Criteria     | Value              | Notes |
-| ------------ | ------------------ | ----- |
-| Sync service | :white_check_mark: |       |
-| Linux client | :white_check_mark: |       |
-| Web client   | :x:                |       |
-| iOS client   | :white_check_mark: |       |
-
-### Logseq
-
-![Logseq](./assets/logseq.png){ loading=lazy }
-
-| Criteria     | Value              | Notes |
-| ------------ | ------------------ | ----- |
-| Sync service | :white_check_mark: |       |
-| Linux client | :white_check_mark: |       |
-| Web client   | :x:                |       |
-| iOS client   | :white_check_mark: |       |
+These are the apps who have made their whole design / business-model around the current hot thing - AI.
 
 ### Mem
 
@@ -432,16 +412,40 @@ I will readily admit - I have absolutely zero memory of where I sourced / collec
 | Web client   | :white_check_mark: |       |
 | iOS client   | :white_check_mark: |       |
 
-### Notable
+### Taskade
 
-![Notable](./assets/notable.png){ loading=lazy }
+![Taskade](./assets/taskade.png){ loading=lazy }
 
 | Criteria     | Value              | Notes |
 | ------------ | ------------------ | ----- |
-| Sync service | :x:                |       |
+| Sync service | :white_check_mark: |       |
+| Linux client | :white_check_mark: |       |
+| Web client   | :white_check_mark: |       |
+| iOS client   | :white_check_mark: |       |
+
+## Graph-based
+
+### Capacities
+
+![Capacities](./assets/capacities.png){ loading=lazy }
+
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :white_check_mark: |       |
+| Linux client | :x:                |       |
+| Web client   | :white_check_mark: |       |
+| iOS client   | :white_check_mark: |       |
+
+### Logseq
+
+![Logseq](./assets/logseq.png){ loading=lazy }
+
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :white_check_mark: |       |
 | Linux client | :white_check_mark: |       |
 | Web client   | :x:                |       |
-| iOS client   | :x:                |       |
+| iOS client   | :white_check_mark: |       |
 
 ### Obsidian
 
@@ -465,38 +469,16 @@ I will readily admit - I have absolutely zero memory of where I sourced / collec
 | Web client   | :white_check_mark: |       |
 | iOS client   | :white_check_mark: |       |
 
-### Remnote
-
-![Remnote](./assets/remnote.png){ loading=lazy }
-
-| Criteria     | Value              | Notes |
-| ------------ | ------------------ | ----- |
-| Sync service | :white_check_mark: |       |
-| Linux client | :white_check_mark: |       |
-| Web client   | :white_check_mark: |       |
-| iOS client   | :white_check_mark: |       |
-
 ### Roam Research
 
 ![Roam Research](./assets/roam-research.png){ loading=lazy }
 
-| Criteria     | Value              | Notes |
-| ------------ | ------------------ | ----- |
-| Sync service | :white_check_mark: |       |
-| Linux client | :x:                |       |
-| Web client   | :white_check_mark: |       |
-| iOS client   | :x:                |       |
-
-### Simplenote
-
-![Simplenote](./assets/simplenote.png){ loading=lazy }
-
-| Criteria     | Value              | Notes |
-| ------------ | ------------------ | ----- |
-| Sync service | :white_check_mark: |       |
-| Linux client | :white_check_mark: |       |
-| Web client   | :x:                |       |
-| iOS client   | :white_check_mark: |       |
+| Criteria     | Value              | Notes                              |
+| ------------ | ------------------ | ---------------------------------- |
+| Sync service | :white_check_mark: |                                    |
+| Linux client | :x:                |                                    |
+| Web client   | :white_check_mark: |                                    |
+| iOS client   | :question:         | Exists, but is not fully-featured. |
 
 ### Supernotes
 
@@ -531,17 +513,6 @@ I will readily admit - I have absolutely zero memory of where I sourced / collec
 | Web client   | :white_check_mark: |       |
 | iOS client   | :white_check_mark: |       |
 
-### Workflowy
-
-![Workflowy](./assets/workflowy.png){ loading=lazy }
-
-| Criteria     | Value              | Notes |
-| ------------ | ------------------ | ----- |
-| Sync service | :white_check_mark: |       |
-| Linux client | :white_check_mark: |       |
-| Web client   | :white_check_mark: |       |
-| iOS client   | :white_check_mark: |       |
-
 ### Zettlr
 
 ![Zettlr](./assets/zettlr.png){ loading=lazy }
@@ -552,3 +523,38 @@ I will readily admit - I have absolutely zero memory of where I sourced / collec
 | Linux client | :white_check_mark: |       |
 | Web client   | :x:                |       |
 | iOS client   | :x:                |       |
+
+## Other
+
+### acreom
+
+![acreom](./assets/acreom.png){ loading=lazy }
+
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :white_check_mark: |       |
+| Linux client | :white_check_mark: |       |
+| Web client   | :white_check_mark: |       |
+| iOS client   | :white_check_mark: |       |
+
+### Dynalist
+
+![Dynalist](./assets/dynalist.png){ loading=lazy }
+
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :white_check_mark: |       |
+| Linux client | :white_check_mark: |       |
+| Web client   | :white_check_mark: |       |
+| iOS client   | :white_check_mark: |       |
+
+### Workflowy
+
+![Workflowy](./assets/workflowy.png){ loading=lazy }
+
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :white_check_mark: |       |
+| Linux client | :white_check_mark: |       |
+| Web client   | :white_check_mark: |       |
+| iOS client   | :white_check_mark: |       |
