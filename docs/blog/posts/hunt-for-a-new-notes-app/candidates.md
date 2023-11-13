@@ -126,6 +126,8 @@ These are apps that are focused more on handwritten notes or a canvas-based appr
 | Web client   | :x:                |       |
 | iOS client   | :white_check_mark: |       |
 
+GoodNotes is one of the main written notes apps for the iPad. I've used it for a bit and it's a fantastic option if you're looking for a written notes app - in particular, the fact it allows you to pay a one-time payment instead of a subscription, unlike Notability, is much appreciated. It's got all the usual features you'd expect from a written notes app, such as support for multiple pen types, support for typed text, and support for importing PDFs to annotate, but at it's core it is built for handwritten notes and so is not what I'm looking for.
+
 ### Milanote
 
 ![Milanote](./assets/milanote.png){ loading=lazy }
@@ -136,6 +138,8 @@ These are apps that are focused more on handwritten notes or a canvas-based appr
 | Linux client | :x:                |       |
 | Web client   | :white_check_mark: |       |
 | iOS client   | :white_check_mark: |       |
+
+Milanote is an app that is very much designed for more visual work. It has a heavy emphasis on a canvas-based approach to laying out notes, and I think it'd be a fantastic choice if you're looking to capture and collaborate on ideas for something design-focused, but the app is just not designed for working on large amounts of text-based notes, for things like technical projects with no visual component.
 
 ### Notability
 
@@ -148,6 +152,8 @@ These are apps that are focused more on handwritten notes or a canvas-based appr
 | Web client   | :x:                |       |
 | iOS client   | :white_check_mark: |       |
 
+Notability is (in my mind) the primary counterpart of GoodNotes. It has much the same feature set, with from my perspective the only real difference being the fact that it requires a subscription instead of a one-time payment. Since it's basically the same thing as GoodNotes, it is off the table for the same reason.
+
 ### Scrintal
 
 ![Scrintal](./assets/scrintal.png){ loading=lazy }
@@ -158,6 +164,8 @@ These are apps that are focused more on handwritten notes or a canvas-based appr
 | Linux client | :x:                |       |
 | Web client   | :white_check_mark: |       |
 | iOS client   | :x:                |       |
+
+Scrintal is quite similar to Milanote, with a focus on creating many small notes and laying them out on a large canvas alongside images and other media. It seems to be a bit more text-focused than Milanote (just comparing the images of the two should be enough to make that clear), but it is still very much designed around laying out notes visually, which I am not looking for.
 
 
 ## How Did We Get Here?
@@ -175,16 +183,7 @@ I will readily admit - I have absolutely zero memory of where I sourced / collec
 | Web client   | :white_check_mark: |       |
 | iOS client   | :white_check_mark: |       |
 
-### Bundled Notes
-
-![Bundled Notes](./assets/bundled-notes.png){ loading=lazy }
-
-| Criteria     | Value              | Notes |
-| ------------ | ------------------ | ----- |
-| Sync service | :x:                |       |
-| Linux client | :x:                |       |
-| Web client   | :white_check_mark: |       |
-| iOS client   | :x:                |       |
+Asana is a project / task management app for teams, akin to something like Jira. As far as I can tell, the closest thing it has to notes is comments & descriptions on tasks and projects, which is very much not a notes solution I want to use.
 
 ### ClickUp
 
@@ -197,6 +196,8 @@ I will readily admit - I have absolutely zero memory of where I sourced / collec
 | Web client   | :white_check_mark: |       |
 | iOS client   | :white_check_mark: |       |
 
+ClickUp is, much like Asana, an app primarily built for project / task management. It _does_ have an actual place to do writing, unlike Asana, in the form of it's Docs feature, but I'm not looking for a docs solution attached to an app primarily built for project management. I will note however that the Docs do look to be pretty nice, and they sound like they may be well integrated, so I suspect if you're already using ClickUp the docs might be a fantastic alternative to Notion, but I don't think they're worth adopting ClickUp for.
+
 ### Clutter
 
 ![Clutter](./assets/clutter.png){ loading=lazy width=400 }
@@ -207,6 +208,8 @@ I will readily admit - I have absolutely zero memory of where I sourced / collec
 | Linux client | :x:   |       |
 | Web client   | :x:   |       |
 | iOS client   | :x:   |       |
+
+Clutter is the only app on this list I struggled to find any trace of. As far as I can find, it consists of a very rudimentary Android app that hasn't been updated in a very long time, and a website that may have originally been associated / contained an actual app, but these days just contains a newsletter signup, with the rest of the viewport filled with misc. unrelated ads.
 
 <figure markdown>
   ![Clutter site](./assets/clutter-site.png){ loading=lazy }
@@ -224,6 +227,8 @@ I will readily admit - I have absolutely zero memory of where I sourced / collec
 | Web client   | :white_check_mark: |       |
 | iOS client   | :white_check_mark: |       |
 
+OmniFocus is a task / project management app for Apple devices. I've heard fantastic things about it from folks online (mainly CGP Grey), and I may look at giving it a chance if I ever go all-in on the Apple ecosystem again, but it's not a notes app.
+
 ### Remnote
 
 ![Remnote](./assets/remnote.png){ loading=lazy }
@@ -235,6 +240,8 @@ I will readily admit - I have absolutely zero memory of where I sourced / collec
 | Web client   | :white_check_mark: |       |
 | iOS client   | :white_check_mark: |       |
 
+Remnote is a notes app very much focused on taking notes for school. As a result, most of its features are focused on this, such as things like flashcards. I think it may be a fantastic app if you are a student, but for technical note taking this is very much not fit for my needs.
+
 ### Things
 
 ![Things](./assets/things.png){ loading=lazy }
@@ -245,6 +252,8 @@ I will readily admit - I have absolutely zero memory of where I sourced / collec
 | Linux client | :x:                |       |
 | Web client   | :x:                |       |
 | iOS client   | :white_check_mark: |       |
+
+Similar to OmniFocus, Things is an Apple-only todo app. It's supposedly a fantastic todo app, but it's not a notes app.
 
 ## Evernote clones
 
@@ -601,6 +610,17 @@ These are the apps that don't really fit into any other category.
 | Linux client | :white_check_mark: |       |
 | Web client   | :white_check_mark: |       |
 | iOS client   | :white_check_mark: |       |
+
+### Bundled Notes
+
+![Bundled Notes](./assets/bundled-notes.png){ loading=lazy }
+
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :x:                |       |
+| Linux client | :x:                |       |
+| Web client   | :white_check_mark: |       |
+| iOS client   | :x:                |       |
 
 ### Dynalist
 
