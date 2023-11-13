@@ -277,6 +277,8 @@ That workflow is:
 | Web client   | :white_check_mark: |       |
 | iOS client   | :white_check_mark: |       |
 
+Amplenote seems to be a bit of a kitchen sink-type app. It advertises competing with Evernote, Roam Research, Todoist, and Google Calendar. They seem to have implemented basically any possible idea they thought of, and I worry that everything is stretched a bit thin and half-baked as a result. Unfortunately, it is (in my opinion) a bit lacking from the UI design perspective - the UI gives heavy 2012 WordPress admin page vibes. One place that this app does win is when it comes to likely longevity - they've advertised that the company is entirely self-funded, and has no investors, meaning they're not going to be forced by the investors to make decisions to improve the investors returns at the cost of users.
+
 ### Inkdrop
 
 ![Inkdrop](./assets/inkdrop.png){ loading=lazy }
@@ -287,6 +289,10 @@ That workflow is:
 | Linux client | :white_check_mark: |       |
 | Web client   | :x:                |       |
 | iOS client   | :white_check_mark: |       |
+
+Inkdrop belongs to the category of Markdown-based notes apps. It features a very Evernote-like feature set, but with the key distinction being that notes are authored & stored in plain Markdown, which is then rendered as rich text. This is a setup that I am a fan of, and I actually was a regular user of Inkdrop for a while, but unforunately Inkdrop lacks a web app at this point, which is a deal-breaker for me. This is a shame, because Inkdrop actually has something massive going for it - back when I was an Inkdrop user I ported the Material Palenight colour scheme to Inkdrop, and as a result when Christmas came the developer gave me a permanent "Plugin Developer Discount", which gives me Inkdrop for free, permanently.
+
+![](./assets/inkdrop-billing.png){ loading=lazy }
 
 ### Joplin
 
