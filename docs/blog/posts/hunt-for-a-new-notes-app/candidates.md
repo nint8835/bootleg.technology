@@ -488,6 +488,8 @@ These are the apps who have made their whole design / business-model around the 
 | Web client   | :white_check_mark: |       |
 | iOS client   | :white_check_mark: |       |
 
+Mem appears to have originally been a Notion-like app, but since the AI craze kicked off they seem to have gone ALL IN on AI. Their main site is like 75% AI mentions, 25% actual note taking app mentions. The note taking / document writing functionality seems to now largely just be a means of getting data into and out of their AI.
+
 ### Taskade
 
 ![Taskade](./assets/taskade.png){ loading=lazy }
@@ -498,6 +500,23 @@ These are the apps who have made their whole design / business-model around the 
 | Linux client | :white_check_mark: |       |
 | Web client   | :white_check_mark: |       |
 | iOS client   | :white_check_mark: |       |
+
+Taskade appears to also be a Notion-like app, but is now fully all-in on AI. Scrolling through the main product page, I see:
+
+- AI
+- AI
+- AI
+- AI
+- Graph view
+- AI
+- Sharing
+- Collaboration
+- Zoom competitor?
+- 3x4 grid where all items are AI
+
+Basically everything on this site is all focused on the AI functionality. I don't mind a bit of AI functionality, but the sheer amount of focus on it on this site makes me think they're just chasing the current trend and might be neglecting the core functionality in favour of that.
+
+Also, any time I load their site it lags my whole computer and causes my fans to spin up, so that doesn't exactly instil confidence about the performance of the app itself, if just their marketing site is enough to do this.
 
 ## Graph-based
 
