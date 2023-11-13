@@ -451,6 +451,8 @@ If I were doing this research a year ago, these apps would be in the running, bu
 | Web client   | :x:                |       |
 | iOS client   | :white_check_mark: |       |
 
+Bear is one of the main Apple-native, Markdown-based notes apps. It provides an Evernote-like organization experience, along with a well-built Markdown-based editing experience. The apps are all native Apple apps, built with Apple technologies - no Electron to be found. It also provides an extensive set of actions for Apple's Shortcuts app, which allows performing extensive automations on notes.
+
 ### DEVONthink
 
 ![DEVONthink](./assets/devonthink.png){ loading=lazy }
@@ -462,6 +464,12 @@ If I were doing this research a year ago, these apps would be in the running, bu
 | Web client   | :x:                |       |
 | iOS client   | :white_check_mark: |       |
 
+DEVONthink, to me, seems more like a big business piece of software, designed for recording & storing documents, and searching through them. This is made clearest by the quote in their "At a Glance" section:
+
+> DEVONthink is your paperless office. It stores all your documents, helps you keep them organized, and presents you with what you need to get the job done.
+
+I feel like if that's the kind of thing you're doing the software would be great - it definitely gives the vibes of a well-built, heavily-focused piece of software.
+
 ### Drafts
 
 ![Drafts](./assets/drafts.png){ loading=lazy }
@@ -472,6 +480,8 @@ If I were doing this research a year ago, these apps would be in the running, bu
 | Linux client | :x:                |       |
 | Web client   | :x:                |       |
 | iOS client   | :white_check_mark: |       |
+
+Drafts is the other main Apple-native, Markdown-based notes app. It is much of the same as Bear - a comprehensive suite of well-designed, native Apple apps, without any Electron in sight, and with a comprehensive set of actions for Shortcuts for automating the app. The main difference between Drafts and Bear is that Drafts is much more focused on the initial capture of notes, and less on the organization of them. It is designed to be a quick, easy way to capture notes, and then you can figure out what to do with them later.
 
 ## Chasing the New Hot Thing™
 
