@@ -403,6 +403,14 @@ That workflow is:
 | Web client   | :x:                |       |
 | iOS client   | :white_check_mark: |       |
 
+Anytype is a Notion competitor that advertises being open-source and peer-to-peer. As a result, it doesn't have an account system like other apps - when you sign up, you're given a 12 word mnemonic phrase which is used along the lines of a password to generate a private key which encrypts your documents.
+
+Once logged in, it works much the same as Notion at the base - you have pages (called Objects), which consist of Blocks, just like Notion.
+
+Where it diverges from Notion, is with Types - Objects have a Type, which defines properties, relationships, etc. - think Notion's databases, but app-wide. You can then use Sets (akin to Notion's views) to query and create views of these Objects. The fact that this is app-wide seems like it could be really freeing - if you've got common types of things (such as knowledge base posts, for example), you don't have to cram them all into one monolithic database & chunk it out with views - the monolithic database is implicit, and the posts just exist wherever, and then you can use Sets to materialize those views wherever needed.
+
+One downside that's a bit hard to quantify is the app has a bit of a cryptobro feeling from it. The app advertises being "The Everything App", and based on scrolling through their Twitter, they definitely have a higher-than-normal amount of interactions with crypto folks - I see a retweet of a post reviewing Anytype from a series of web3 reviews, and they also mentioned using Anytype for creating DAO ecosystems. There doesn't really seem to be much pointing that direction in the app itself, but the whole vibe makes me a bit uneasy about it, I'm half worried they're going to make me need a Metamask wallet to use it in the future or something like that.
+
 ### Coda
 
 ![Coda](./assets/coda.png){ loading=lazy }
@@ -413,6 +421,14 @@ That workflow is:
 | Linux client | :x:                |       |
 | Web client   | :white_check_mark: |       |
 | iOS client   | :white_check_mark: |       |
+
+Coda seems to basically just be Notion with a greater emphasis on collaboration / business. It has much of the same feature set, with the addition of:
+
+- No-code applications that work with their equivalent of Notion's databases
+- Charts for databases
+- Further interactability - polling, buttons, sliders in the database, etc.
+
+For the basic case of note taking, it doesn't offer much more than Notion if you are the only person working on a set of notes.
 
 ### Craft
 
@@ -425,6 +441,8 @@ That workflow is:
 | Web client   | :white_check_mark: |       |
 | iOS client   | :white_check_mark: |       |
 
+As far as I can tell, Craft is basically just Notion with a greater focus on visual appeal. The new features added seem to largely all be around making docs look better. If you are a Notion user but want your docs to look nicer this may be a good fit, but otherwise I think there are likely better options.
+
 ### Dropbox Paper
 
 ![Dropbox Paper](./assets/dropbox-paper.png){ loading=lazy }
@@ -435,6 +453,8 @@ That workflow is:
 | Linux client | :x:                |       |
 | Web client   | :white_check_mark: |       |
 | iOS client   | :white_check_mark: |       |
+
+Dropbox Paper is basically just Notion for Dropbox users. It doesn't seem to have anything special to offer, so I see no reason to adopt it unless you are already a Dropbox user.
 
 ## Apple-only
 
