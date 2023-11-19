@@ -392,25 +392,6 @@ That workflow is:
 - Pages can contain other pages, leading to a much more customizable, user-defined organization hierarchy
 - Pages contain "blocks" of content of various types, such as text, lists, tables, etc.
 
-### Anytype
-
-![Anytype](./assets/anytype.png){ loading=lazy }
-
-| Criteria     | Value              | Notes |
-| ------------ | ------------------ | ----- |
-| Sync service | :white_check_mark: |       |
-| Linux client | :white_check_mark: |       |
-| Web client   | :x:                |       |
-| iOS client   | :white_check_mark: |       |
-
-Anytype is a Notion competitor that advertises being open-source and peer-to-peer. As a result, it doesn't have an account system like other apps - when you sign up, you're given a 12 word mnemonic phrase which is used along the lines of a password to generate a private key which encrypts your documents.
-
-Once logged in, it works much the same as Notion at the base - you have pages (called Objects), which consist of Blocks, just like Notion.
-
-Where it diverges from Notion, is with Types - Objects have a Type, which defines properties, relationships, etc. - think Notion's databases, but app-wide. You can then use Sets (akin to Notion's views) to query and create views of these Objects. The fact that this is app-wide seems like it could be really freeing - if you've got common types of things (such as knowledge base posts, for example), you don't have to cram them all into one monolithic database & chunk it out with views - the monolithic database is implicit, and the posts just exist wherever, and then you can use Sets to materialize those views wherever needed.
-
-One downside that's a bit hard to quantify is the app has a bit of a cryptobro feeling from it. The app advertises being "The Everything App", and based on scrolling through their Twitter, they definitely have a higher-than-normal amount of interactions with crypto folks - I see a retweet of a post reviewing Anytype from a series of web3 reviews, and they also mentioned using Anytype for creating DAO ecosystems. There doesn't really seem to be much pointing that direction in the app itself, but the whole vibe makes me a bit uneasy about it, I'm half worried they're going to make me need a Metamask wallet to use it in the future or something like that.
-
 ### Coda
 
 ![Coda](./assets/coda.png){ loading=lazy }
@@ -552,17 +533,6 @@ Also, any time I load their site it lags my whole computer and causes my fans to
 
 Popularized by Roam Research, graph-based / Zettelkasten Method-inspired notes apps have experienced a massive surge in popularity and, as a result, a surge in the number of options. These are the apps that are focused on this workflow.
 
-### Capacities
-
-![Capacities](./assets/capacities.png){ loading=lazy }
-
-| Criteria     | Value              | Notes |
-| ------------ | ------------------ | ----- |
-| Sync service | :white_check_mark: |       |
-| Linux client | :x:                |       |
-| Web client   | :white_check_mark: |       |
-| iOS client   | :white_check_mark: |       |
-
 ### Logseq
 
 ![Logseq](./assets/logseq.png){ loading=lazy }
@@ -618,17 +588,6 @@ Popularized by Roam Research, graph-based / Zettelkasten Method-inspired notes a
 | Web client   | :white_check_mark: |       |
 | iOS client   | :white_check_mark: |       |
 
-### Tana
-
-![Tana](./assets/tana.png){ loading=lazy }
-
-| Criteria     | Value              | Notes                                |
-| ------------ | ------------------ | ------------------------------------ |
-| Sync service | :white_check_mark: |                                      |
-| Linux client | :white_check_mark: |                                      |
-| Web client   | :white_check_mark: |                                      |
-| iOS client   | :question:         | iOS app exists, but is capture-only. |
-
 ### TiddlyWiki
 
 ![TiddlyWiki](./assets/tiddlywiki.png){ loading=lazy }
@@ -650,6 +609,49 @@ Popularized by Roam Research, graph-based / Zettelkasten Method-inspired notes a
 | Linux client | :white_check_mark: |       |
 | Web client   | :x:                |       |
 | iOS client   | :x:                |       |
+
+## Object-based
+
+Object-based notetaking is a bit of a newer category. The easiest way to think of it is like Notion databases, but app-wide. All notes are objects of a given type, with types having properties, relationships, etc.
+
+### Anytype
+
+![Anytype](./assets/anytype.png){ loading=lazy }
+
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :white_check_mark: |       |
+| Linux client | :white_check_mark: |       |
+| Web client   | :x:                |       |
+| iOS client   | :white_check_mark: |       |
+
+Anytype is a Notion competitor that advertises being open-source and peer-to-peer. As a result, it doesn't have an account system like other apps - when you sign up, you're given a 12 word mnemonic phrase which is used along the lines of a password to generate a private key which encrypts your documents.
+
+Once logged in, it mostly seems like a pretty well-executed Notion clone, with object-based notetaking implemented app-wide. It's got a pretty good set of features, and the UI is pretty nice
+
+One downside that's a bit hard to quantify is the app has a bit of a cryptobro feeling from it. The app advertises being "The Everything App", and based on scrolling through their Twitter, they definitely have a higher-than-normal amount of interactions with crypto folks - I see a retweet of a post reviewing Anytype from a series of web3 reviews, and they also mentioned using Anytype for creating DAO ecosystems. There doesn't really seem to be much pointing that direction in the app itself, but the whole vibe makes me a bit uneasy about it, I'm half worried they're going to make me need a Metamask wallet to use it in the future or something like that.
+
+### Capacities
+
+![Capacities](./assets/capacities.png){ loading=lazy }
+
+| Criteria     | Value              | Notes |
+| ------------ | ------------------ | ----- |
+| Sync service | :white_check_mark: |       |
+| Linux client | :x:                |       |
+| Web client   | :white_check_mark: |       |
+| iOS client   | :white_check_mark: |       |
+
+### Tana
+
+![Tana](./assets/tana.png){ loading=lazy }
+
+| Criteria     | Value              | Notes                                |
+| ------------ | ------------------ | ------------------------------------ |
+| Sync service | :white_check_mark: |                                      |
+| Linux client | :white_check_mark: |                                      |
+| Web client   | :white_check_mark: |                                      |
+| iOS client   | :question:         | iOS app exists, but is capture-only. |
 
 ## Other
 
