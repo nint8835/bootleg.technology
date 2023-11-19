@@ -700,3 +700,13 @@ These are the apps that don't really fit into any other category.
 | Linux client | :white_check_mark: |       |
 | Web client   | :white_check_mark: |       |
 | iOS client   | :white_check_mark: |       |
+
+## Selected Candidates
+
+After reviewing all the options I have selected the following candidates for an initial trial:
+
+- [acreom](#acreom)
+- [Capacities](#capacities)
+- [Supernotes](#supernotes)
+
+I will give each of the apps a minimum two week trial run, taking notes on my feelings using each in real-world situations and ultimately writing a post on each. Once complete, I'll sum up my thoughts on each, and if one of them is a clear winner I'll be moving over to that. If none of them hook me, I will revisit this list to select more candidates, and repeat the process again.
