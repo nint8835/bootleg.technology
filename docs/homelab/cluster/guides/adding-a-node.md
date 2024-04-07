@@ -14,7 +14,7 @@ description: Guide on adding a new node to the Talos Kubernetes cluster.
 3. For OS, configure the following:
     - Use CD/DVD disc image file (iso)
     - Storage: `mnemosyne-isos`
-    - ISO image: `talos-amd64.iso`
+    - ISO image: `talos-linux-1.6.7-metal-amd64.iso`
     - Type: `Linux`
     - Version: `6.x - 2.6 Kernel`
 4. For System, leave all settings as default.
@@ -55,3 +55,5 @@ description: Guide on adding a new node to the Talos Kubernetes cluster.
 16. Once the VM is started up and in "Maintenance" state again, run `terraform apply`. This will kick off OS installation and will take roughly 5 minutes to complete.
 
 At this point, the node should now show up in `kubectl get nodes`, and be ready for use.
+
+If necessary, after upgrading use `talosctl upgrade` to upgrade the new nodes to a matching minor version with the rest of the nodes.
