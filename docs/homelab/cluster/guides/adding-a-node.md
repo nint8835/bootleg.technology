@@ -14,7 +14,7 @@ description: Guide on adding a new node to the Talos Kubernetes cluster.
 3. For OS, configure the following:
     - Use CD/DVD disc image file (iso)
     - Storage: `mnemosyne-isos`
-    - ISO image: `talos-linux-1.6.7-metal-amd64.iso`
+    - ISO image: `talos-linux-1.7.0-metal-amd64.iso`
     - Type: `Linux`
     - Version: `6.x - 2.6 Kernel`
 4. For System, leave all settings as default.
