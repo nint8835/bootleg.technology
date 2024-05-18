@@ -3,14 +3,17 @@ window.MathJax = {
     inlineMath: [["\\(", "\\)"]],
     displayMath: [["\\[", "\\]"]],
     processEscapes: true,
-    processEnvironments: true,
+    processEnvironments: true
   },
   options: {
     ignoreHtmlClass: ".*|",
-    processHtmlClass: "arithmatex",
-  },
+    processHtmlClass: "arithmatex"
+  }
 };
 
-document$.subscribe(() => {
-  MathJax.typesetPromise();
-});
+document$.subscribe(() => { 
+  MathJax.startup.output.clearCache()
+  MathJax.typesetClear()
+  MathJax.texReset()
+  MathJax.typesetPromise()
+})
