@@ -39,14 +39,17 @@ plugins:
       enable_creation_date: true
       fallback_to_build_date: true
       type: timeago
-
-  - rss:
-      match_path: blog/posts/.* 
-      date_from_meta:
-        as_creation: date
-      categories:
-        - categories
-        - tags
+  
+  - group:
+      enabled: !ENV CI
+      plugins:
+        - rss:
+            match_path: blog/posts/.* 
+            date_from_meta:
+              as_creation: date
+            categories:
+              - categories
+              - tags
 
 markdown_extensions:
   - attr_list
