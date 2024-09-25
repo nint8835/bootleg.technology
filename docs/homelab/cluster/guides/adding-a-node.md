@@ -14,7 +14,7 @@ description: Guide on adding a new node to the Talos Kubernetes cluster.
 3. For OS, configure the following:
     - Use CD/DVD disc image file (iso)
     - Storage: `mnemosyne-isos`
-    - ISO image: `talos-linux-1.7.0-metal-amd64.iso`
+    - ISO image: `talos-linux-1.8.0-metal-amd64.iso`
     - Type: `Linux`
     - Version: `6.x - 2.6 Kernel`
 4. For System, leave all settings as default.
@@ -26,7 +26,7 @@ description: Guide on adding a new node to the Talos Kubernetes cluster.
 6. For CPU, configure the following:
     - Sockets: `1`
     - Cores: `2`
-    - Type: `host`
+    - Type: `x86-64-v2-AES`
 7. For Memory, configure the memory amount to be `4096`
 8. For Network, leave all settings default except for VLAN Tag, which should be `8`
 9. On the confirmation page, check "Start after created", and click Finish
@@ -43,12 +43,12 @@ description: Guide on adding a new node to the Talos Kubernetes cluster.
     ```terraform hl_lines="8"
     locals {
         control_plane_nodes = {
-            k8s-control-plane-1 = "10.8.1.1",
-            k8s-control-plane-2 = "10.8.1.2",
-            k8s-control-plane-3 = "10.8.1.3",
+            k8s-control-plane-1 = "10.8.1.1"
+            k8s-control-plane-2 = "10.8.1.2"
+            k8s-control-plane-3 = "10.8.1.3"
         }
         worker_nodes = {
-            k8s-worker-1 = "10.8.2.1",
+            k8s-worker-1 = "10.8.2.1"
         }
     }
     ```
