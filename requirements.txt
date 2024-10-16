@@ -3,5 +3,4 @@ Pillow
 CairoSVG
 mkdocs-git-revision-date-localized-plugin
 mkdocs-rss-plugin
-git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git@master
-
+mkdocs-material

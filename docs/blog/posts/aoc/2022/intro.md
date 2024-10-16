@@ -2,10 +2,8 @@
 title: Advent of Code 2022 - Intro
 description: Kicking off the Advent of Code 2022 blog series
 date: 2022-12-01
-
-links:
-  - My solutions: https://github.com/nint8835/AdventOfCode2022
-  - Jack's posts: https://www.cs.mun.ca/~jaharrhy/aoc/2022/
+authors:
+  - nint8835
 ---
 
 ![](./assets/intro.png)

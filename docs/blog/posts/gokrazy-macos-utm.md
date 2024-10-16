@@ -3,6 +3,8 @@ title: Running Gokrazy Images on macOS with UTM
 description: How to use UTM to test your Gokrazy images locally on a Mac.
 date: 2024-06-13
 draft: true
+authors:
+  - nint8835
 ---
 
 - Create new Gokrazy project if you haven't already

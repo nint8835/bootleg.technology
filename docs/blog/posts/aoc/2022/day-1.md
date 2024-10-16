@@ -2,9 +2,8 @@
 title: Advent of Code 2022 - Day 1
 description: Walkthrough of my solution to Advent of Code 2022 - Day 1's problem
 date: 2022-12-01
-
-links:
-  - My solution: https://github.com/nint8835/AdventOfCode2022/blob/main/Day1/Day1.fsx
+authors:
+  - nint8835
 ---
 
 ![](./assets/day-1.png)
