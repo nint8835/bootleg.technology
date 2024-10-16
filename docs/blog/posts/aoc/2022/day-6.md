@@ -2,9 +2,8 @@
 title: Advent of Code 2022 - Day 6
 description: Walkthrough of my solution to Advent of Code 2022 - Day 6's problem
 date: 2022-12-06
-
-links:
-  - My solution: https://github.com/nint8835/AdventOfCode2022/blob/main/Day3/Day6.fsx
+authors:
+  - nint8835
 ---
 
 ![](./assets/day-6.png)

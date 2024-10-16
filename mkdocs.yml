@@ -15,14 +15,12 @@ theme:
     - navigation.tabs
     - navigation.sections
     - navigation.instant
-    - navigation.instant.prefetch
     - navigation.instant.progress
     - content.code.annotate
     - content.tooltips
     - search.suggest
 
 plugins:
-  - meta
   - search
   - privacy
   - social

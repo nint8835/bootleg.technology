@@ -3,6 +3,8 @@ title: Untitled Gleam Post
 description: My experience trying Gleam
 date: 2024-05-21
 draft: true
+authors:
+  - nint8835
 ---
 
 TODO: Insert preview text & image here
