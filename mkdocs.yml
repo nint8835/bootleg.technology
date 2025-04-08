@@ -99,6 +99,10 @@ nav:
   - Blog:
       - blog/index.md
   - Homelab:
+    - Hardware:
+      - Compute: homelab/hardware/compute.md
+      - Storage: homelab/hardware/storage.md
+      - Network: homelab/hardware/network.md
     - Cluster:
       - Guides:
         - Adding a Node: homelab/cluster/guides/adding-a-node.md
