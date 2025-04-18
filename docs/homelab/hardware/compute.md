@@ -1,5 +1,5 @@
 ---
-title: Compute - Hardware
+title: Compute
 description: Details of the compute hardware I use in my homelab.
 ---
 
@@ -15,4 +15,4 @@ In my homelab, the vast majority of workloads run on my 8 node Proxmox cluster, 
 | `selene`    | Lenovo ThinkStation P330 Tiny | Intel Core i7-8700T      |      64GB |     512GB |
 | `titan`     | Lenovo ThinkStation P330 Tiny | Intel Core i7-8700T      |      64GB |     512GB |
 | `zeus`      | Lenovo ThinkCentre M93p Tiny  | Intel Xeon E3-1265L V2   |      16GB |     480GB |
-| **TOTAL**   |                               | **42 cores, 76 threads** | **368GB** | **3.9TB** |
+| **Total**   |                               | **42 cores, 76 threads** | **368GB** | **3.9TB** |

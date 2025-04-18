@@ -1,5 +1,5 @@
 ---
-title: Storage - Hardware
+title: Storage
 description: Details of the storage hardware I use in my homelab.
 ---
 

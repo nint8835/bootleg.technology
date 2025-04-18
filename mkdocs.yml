@@ -27,27 +27,14 @@ plugins:
 
   - tags:
 
-  - blog:
-      post_url_date_format: yyyy/MM
-      categories_allowed:
-        - Advent of Code
-        - Tools
-
   - git-revision-date-localized:
       enable_creation_date: true
       fallback_to_build_date: true
       type: timeago
   
-  - group:
-      enabled: !ENV CI
-      plugins:
-        - rss:
-            match_path: blog/posts/.* 
-            date_from_meta:
-              as_creation: date
-            categories:
-              - categories
-              - tags
+  - rss:
+      categories:
+        - tags
 
 markdown_extensions:
   - attr_list
@@ -94,16 +81,6 @@ extra:
       link: https://github.com/nint8835
 copyright: Copyright &copy; Riley Flynn
 
-nav:
-  - Home: index.md
-  - Blog:
-      - blog/index.md
-  - Homelab:
-    - Hardware:
-      - Compute: homelab/hardware/compute.md
-      - Storage: homelab/hardware/storage.md
-      - Network: homelab/hardware/network.md
-    - Cluster:
-      - Guides:
-        - Adding a Node: homelab/cluster/guides/adding-a-node.md
-        - Adding a Host: homelab/cluster/guides/adding-a-host.md
+not_in_nav: |
+  /index.md
+  /tags.md

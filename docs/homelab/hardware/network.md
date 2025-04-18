@@ -1,5 +1,5 @@
 ---
-title: Network - Hardware
+title: Network
 description: Details of the network hardware I use in my homelab.
 ---
 

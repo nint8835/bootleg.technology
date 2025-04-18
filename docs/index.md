@@ -4,6 +4,7 @@ title: Home
 
 # Welcome to bootleg.technology!
 
-bootleg.technology is my little corner on the internet for writing about projects, ideas, and just generally what I'm up to.
+bootleg.technology is my home for any assorted writings that don't fit onto my main site (primarily details of my homelab).
 
-It's a bit light on content at the moment - check out [my main site](https://rileyflynn.me) in the meantime.
+Want to know what I'm up to in terms of work and broader projects? Check out [my main site](https://rileyflynn.me).
+
