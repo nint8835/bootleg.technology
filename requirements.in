@@ -1,0 +1,6 @@
+CairoSVG==2.7.1
+mkdocs==1.6.1
+mkdocs-git-revision-date-localized-plugin==1.4.5
+mkdocs-material==9.6.12
+mkdocs-rss-plugin==1.17.1
+Pillow==11.2.1
