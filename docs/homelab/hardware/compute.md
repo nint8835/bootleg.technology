@@ -3,9 +3,9 @@ title: Compute
 description: Details of the compute hardware I use in my homelab.
 ---
 
-In my homelab, the vast majority of workloads run on my 8 node Proxmox cluster, which consists of the following nodes:
+In my homelab, the vast majority of workloads run on my 8 node Proxmox cluster, which consists of the following physical systems:
 
-| Hostname    | Model                         | CPU                      | Memory    | Storage   |
+| Hostname    | Model                         | CPU                      |    Memory |   Storage |
 | ----------- | ----------------------------- | ------------------------ | --------: | --------: |
 | `aphrodite` | Dell Optiplex 3040 Micro      | Intel Core i5-6500T      |      16GB |     480GB |
 | `apollo`    | Dell Optiplex 3040 Micro      | Intel Core i5-6500T      |      16GB |     480GB |
