@@ -4,3 +4,4 @@ mkdocs-material==9.7.6
 mkdocs-rss-plugin==1.17.9
 mkdocs==1.6.1
 Pillow==12.1.1
+zensical==0.0.30

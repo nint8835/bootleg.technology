@@ -25,11 +25,15 @@ cffi==2.0.0
 charset-normalizer==3.4.6
     # via requests
 click==8.3.1
-    # via mkdocs
+    # via
+    #   mkdocs
+    #   zensical
 colorama==0.4.6
     # via mkdocs-material
 cssselect2==0.9.0
     # via cairosvg
+deepmerge==2.0
+    # via zensical
 defusedxml==0.7.1
     # via cairosvg
 filelock==3.25.2
@@ -53,6 +57,7 @@ markdown==3.10.2
     #   mkdocs
     #   mkdocs-material
     #   pymdown-extensions
+    #   zensical
 markupsafe==3.0.3
     # via
     #   jinja2
@@ -94,9 +99,13 @@ platformdirs==4.9.4
 pycparser==3.0
     # via cffi
 pygments==2.20.0
-    # via mkdocs-material
+    # via
+    #   mkdocs-material
+    #   zensical
 pymdown-extensions==10.21.2
-    # via mkdocs-material
+    # via
+    #   mkdocs-material
+    #   zensical
 python-dateutil==2.9.0.post0
     # via ghp-import
 pyyaml==6.0.3
@@ -105,6 +114,7 @@ pyyaml==6.0.3
     #   mkdocs-get-deps
     #   pymdown-extensions
     #   pyyaml-env-tag
+    #   zensical
 pyyaml-env-tag==1.1
     # via mkdocs
 requests==2.33.1
@@ -128,3 +138,5 @@ webencodings==0.5.1
     # via
     #   cssselect2
     #   tinycss2
+zensical==0.0.30
+    # via -r requirements.in
