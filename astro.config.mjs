@@ -1,26 +1,15 @@
 // @ts-check
 import starlight from '@astrojs/starlight';
+import starlightCatppuccin from '@catppuccin/starlight';
 import { defineConfig } from 'astro/config';
+import starlightSiteGraph from 'starlight-site-graph';
 
-// https://astro.build/config
 export default defineConfig({
     integrations: [
         starlight({
-            title: 'My Docs',
-            social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
-            sidebar: [
-                {
-                    label: 'Guides',
-                    items: [
-                        // Each item here is one entry in the navigation menu.
-                        { label: 'Example Guide', slug: 'guides/example' },
-                    ],
-                },
-                {
-                    label: 'Reference',
-                    items: [{ autogenerate: { directory: 'reference' } }],
-                },
-            ],
+            title: 'bootleg.technology',
+            social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/nint8835/bootleg.technology' }],
+            plugins: [starlightSiteGraph(), starlightCatppuccin({ dark: { flavor: 'frappe' } })],
         }),
     ],
 });
