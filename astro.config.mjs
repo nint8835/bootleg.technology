@@ -1,6 +1,7 @@
 // @ts-check
 import starlight from '@astrojs/starlight';
 import starlightCatppuccin from '@catppuccin/starlight';
+import d2 from 'astro-d2';
 import { defineConfig } from 'astro/config';
 import starlightSiteGraph from 'starlight-site-graph';
 
@@ -19,6 +20,10 @@ export default defineConfig({
                     attrs: { rel: 'human-json', href: new URL('.well-known/human.json', siteVal).pathname },
                 },
             ],
+        }),
+        d2({
+            inline: true,
+            experimental: { useD2js: true },
         }),
     ],
 });
