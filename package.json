@@ -7,7 +7,8 @@
         "start": "astro dev",
         "build": "astro build",
         "preview": "astro preview",
-        "astro": "astro"
+        "astro": "astro",
+        "linkcheck": "CHECK_LINKS=true astro build"
     },
     "dependencies": {
         "@astrojs/starlight": "^0.40.0",
@@ -15,6 +16,7 @@
         "astro": "^6.4.5",
         "astro-d2": "^0.11.0",
         "sharp": "^0.34.5",
+        "starlight-links-validator": "^0.25.2",
         "starlight-site-graph": "^0.5.0"
     },
     "devDependencies": {
