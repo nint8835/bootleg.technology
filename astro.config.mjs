@@ -25,6 +25,7 @@ export default defineConfig({
             ],
         }),
         d2({
+            inline: true,
             experimental: { useD2js: true },
         }),
     ],
