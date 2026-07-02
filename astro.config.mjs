@@ -28,4 +28,7 @@ export default defineConfig({
             experimental: { useD2js: true },
         }),
     ],
+    experimental: {
+        contentIntellisense: true,
+    },
 });
