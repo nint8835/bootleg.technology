@@ -23,6 +23,7 @@ export default defineConfig({
                     attrs: { rel: 'human-json', href: new URL('.well-known/human.json', siteVal).pathname },
                 },
             ],
+            pagination: false,
         }),
         d2({
             experimental: { useD2js: true },
