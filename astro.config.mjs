@@ -2,11 +2,12 @@
 import starlight from '@astrojs/starlight';
 import starlightCatppuccin from '@catppuccin/starlight';
 import d2 from 'astro-d2';
+import metaTags from 'astro-meta-tags';
 import { defineConfig } from 'astro/config';
 import starlightLinksValidator from 'starlight-links-validator';
 import starlightSiteGraph from 'starlight-site-graph';
 
-const siteVal = process.env.CF_PAGES_URL || 'http://localhost:3000';
+const siteVal = process.env.CF_PAGES_URL || 'http://localhost:4321';
 
 export default defineConfig({
     site: siteVal,
@@ -24,10 +25,12 @@ export default defineConfig({
                 },
             ],
             pagination: false,
+            routeMiddleware: './src/routeData.ts',
         }),
         d2({
             experimental: { useD2js: true },
         }),
+        metaTags(),
     ],
     experimental: {
         contentIntellisense: true,
