@@ -19,4 +19,4 @@ My homelab consists of the following physical systems:
 | `zeus`      | Proxmox PVE         | Lenovo ThinkCentre M93p Tiny  | Intel Xeon E3-1265L V2    |      16GB |     480GB |
 | **Total**   |                     |                               | **62 cores, 116 threads** | **528GB** | **6.5TB** |
 
-All Proxmox systems are joined to a single cluster, which is used to run VMs for the majority of my workloads (most being [Kubernetes nodes](../cluster/nodes.md))
+All Proxmox systems are joined to a single cluster, which is used to run VMs for the majority of my workloads (most being [Kubernetes nodes](/homelab/cluster/nodes/))
