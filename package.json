@@ -11,20 +11,20 @@
         "linkcheck": "CHECK_LINKS=true astro build"
     },
     "dependencies": {
-        "@astrojs/starlight": "^0.40.0",
+        "@astrojs/starlight": "^0.41.3",
         "@catppuccin/palette": "^2.0.0-beta.1",
-        "@catppuccin/starlight": "^2.0.1",
-        "astro": "^6.4.5",
-        "astro-d2": "^0.11.0",
+        "@catppuccin/starlight": "^2.1.0",
+        "astro": "^7.0.6",
+        "astro-d2": "^0.12.0",
         "astro-meta-tags": "^0.4.1",
         "astro-og-canvas": "^0.13.0",
-        "sharp": "^0.34.5",
+        "sharp": "^0.35.3",
         "starlight-auto-sidebar": "^0.4.0",
-        "starlight-links-validator": "^0.24.1",
+        "starlight-links-validator": "^0.25.2",
         "starlight-site-graph": "^0.5.0"
     },
     "devDependencies": {
-        "prettier": "^3.8.4",
+        "prettier": "^3.9.4",
         "prettier-plugin-astro": "^0.14.1"
     },
     "overrides": {
